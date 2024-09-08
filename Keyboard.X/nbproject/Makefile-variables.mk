@@ -6,5 +6,5 @@
 CND_BASEDIR=`pwd`
 # default configuration
 CND_ARTIFACT_DIR_default=dist/default/production
-CND_ARTIFACT_NAME_default=keyboard.X.production.hex
-CND_ARTIFACT_PATH_default=dist/default/production/keyboard.X.production.hex
+CND_ARTIFACT_NAME_default=Keyboard.X.production.hex
+CND_ARTIFACT_PATH_default=dist/default/production/Keyboard.X.production.hex

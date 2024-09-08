@@ -3,8 +3,8 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>keyboard</name>
-            <creation-uuid>1be7705c-d117-4526-8a3f-570e694ca76e</creation-uuid>
+            <name>Keyboard</name>
+            <creation-uuid>5f26aacb-6c85-4193-b664-b0fee7c3433d</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
