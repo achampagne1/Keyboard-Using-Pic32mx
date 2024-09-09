@@ -403,7 +403,7 @@ bool SwitchIsPressed(void)
  *                  usb_device.c.
  *******************************************************************/
 
-/* currently dont have LED
+/* currently dont have LED KEEP INCASE YOU DO WANT LED
 void BlinkUSBStatus(void)
 {
     static uint16_t led_count=0;
