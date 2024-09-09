@@ -36,7 +36,7 @@ needs to be the correct length for the data type of the entry.
 
 [Configuration Descriptors]
 The configuration descriptor was changed in v2.x from a structure
-to a BYTE array.  Given that the configuration is now a byte array
+to a uint8_t array.  Given that the configuration is now a byte array
 each byte of multi-byte fields must be listed individually.  This
 means that for fields like the total size of the configuration where
 the field is a 16-bit value "64,0," is the correct entry for a
@@ -52,7 +52,7 @@ _RWU tells the USB host that this device supports Remote Wakeup.
 
 [Endpoint Descriptors]
 Like the configuration descriptor, the endpoint descriptors were 
-changed in v2.x of the stack from a structure to a BYTE array.  As
+changed in v2.x of the stack from a structure to a uint8_t array.  As
 endpoint descriptors also has a field that are multi-byte entities,
 please be sure to specify both bytes of the field.  For example, for
 the endpoint size an endpoint that is 64 bytes needs to have the size
@@ -172,11 +172,11 @@ ROM USB_DEVICE_DESCRIPTOR device_dsc=
 };
 
 /* Configuration 1 Descriptor */
-ROM BYTE configDescriptor1[]={
+ROM uint8_t configDescriptor1[]={
     /* Configuration Descriptor */
     0x09,//sizeof(USB_CFG_DSC),    // Size of this descriptor in bytes
     USB_DESCRIPTOR_CONFIGURATION,                // CONFIGURATION descriptor type
-    DESC_CONFIG_WORD(0x0022),   // Total length of data for this cfg
+    DESC_CONFIG_uint16_t(0x0022),   // Total length of data for this cfg
     1,                      // Number of interfaces in this cfg
     1,                      // Index value of this configuration
     0,                      // Configuration string index
@@ -197,43 +197,43 @@ ROM BYTE configDescriptor1[]={
     /* HID Class-Specific Descriptor */
     0x09,//sizeof(USB_HID_DSC)+3,    // Size of this descriptor in bytes RRoj hack
     DSC_HID,                // HID descriptor type
-    DESC_CONFIG_WORD(0x0111),                 // HID Spec Release Number in BCD format (1.11)
+    DESC_CONFIG_uint16_t(0x0111),                 // HID Spec Release Number in BCD format (1.11)
     0x00,                   // Country Code (0x00 for Not supported)
     HID_NUM_OF_DSC,         // Number of class descriptors, see usbcfg.h
     DSC_RPT,                // Report descriptor type
-    DESC_CONFIG_WORD(50),   //sizeof(hid_rpt01),      // Size of the report descriptor
+    DESC_CONFIG_uint16_t(50),   //sizeof(hid_rpt01),      // Size of the report descriptor
     
     /* Endpoint Descriptor */
     0x07,/*sizeof(USB_EP_DSC)*/
     USB_DESCRIPTOR_ENDPOINT,    //Endpoint Descriptor
     HID_EP | _EP_IN,            //EndpointAddress
     _INTERRUPT,                       //Attributes
-    DESC_CONFIG_WORD(3),                  //size
+    DESC_CONFIG_uint16_t(3),                  //size
     0x01                        //Interval
 };
 
 
 //Language code string descriptor
-ROM struct{BYTE bLength;BYTE bDscType;WORD string[1];}sd000={
+ROM struct{uint8_t bLength;uint8_t bDscType;uint16_t string[1];}sd000={
 sizeof(sd000),USB_DESCRIPTOR_STRING,{0x0409
 }};
 
 //Manufacturer string descriptor
-ROM struct{BYTE bLength;BYTE bDscType;WORD string[25];}sd001={
+ROM struct{uint8_t bLength;uint8_t bDscType;uint16_t string[25];}sd001={
 sizeof(sd001),USB_DESCRIPTOR_STRING,
 {'M','i','c','r','o','c','h','i','p',' ',
 'T','e','c','h','n','o','l','o','g','y',' ','I','n','c','.'
 }};
 
 //Product string descriptor
-ROM struct{BYTE bLength;BYTE bDscType;WORD string[22];}sd002={
+ROM struct{uint8_t bLength;uint8_t bDscType;uint16_t string[22];}sd002={
 sizeof(sd002),USB_DESCRIPTOR_STRING,
 {'M','o','u','s','e',' ','I','n',' ','a',' ',
 'C','i','r','c','l','e',' ','D','e','m','o'
 }};
 
 //Class specific descriptor - HID mouse
-ROM struct{BYTE report[HID_RPT01_SIZE];}hid_rpt01={
+ROM struct{uint8_t report[HID_RPT01_SIZE];}hid_rpt01={
     {0x05, 0x01, /* Usage Page (Generic Desktop)             */
     0x09, 0x02, /* Usage (Mouse)                            */
     0xA1, 0x01, /* Collection (Application)                 */
@@ -262,17 +262,17 @@ ROM struct{BYTE report[HID_RPT01_SIZE];}hid_rpt01={
 };/* End Collection,End Collection            */
 
 //Array of configuration descriptors
-ROM BYTE *ROM USB_CD_Ptr[]=
+ROM uint8_t *ROM USB_CD_Ptr[]=
 {
-    (ROM BYTE *ROM)&configDescriptor1
+    (ROM uint8_t *ROM)&configDescriptor1
 };
 
 //Array of string descriptors
-ROM BYTE *ROM USB_SD_Ptr[]=
+ROM uint8_t *ROM USB_SD_Ptr[]=
 {
-    (ROM BYTE *ROM)&sd000,
-    (ROM BYTE *ROM)&sd001,
-    (ROM BYTE *ROM)&sd002
+    (ROM uint8_t *ROM)&sd000,
+    (ROM uint8_t *ROM)&sd001,
+    (ROM uint8_t *ROM)&sd002
 };
 
 /** EOF usb_descriptors.c ***************************************************/

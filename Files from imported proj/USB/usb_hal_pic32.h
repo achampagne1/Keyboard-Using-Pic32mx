@@ -131,7 +131,7 @@ Description:
     #error "PIC32 only supports full ping pong mode.  A different mode other than full ping pong is selected in the usb_config.h file."
 #endif
 
-#define USBSetBDTAddress(addr)         {U1BDTP3 = (((DWORD)KVA_TO_PA(addr)) >> 24); U1BDTP2 = (((DWORD)KVA_TO_PA(addr)) >> 16); U1BDTP1 = (((DWORD)KVA_TO_PA(addr)) >> 8);}
+#define USBSetBDTAddress(addr)         {U1BDTP3 = (((uint32_t)KVA_TO_PA(addr)) >> 24); U1BDTP2 = (((uint32_t)KVA_TO_PA(addr)) >> 16); U1BDTP1 = (((uint32_t)KVA_TO_PA(addr)) >> 8);}
 #define USBPowerModule() U1PWRCbits.USBPWR = 1;
 #define USBPingPongBufferReset U1CONbits.PPBRST
 
@@ -219,7 +219,7 @@ Description:
 
 typedef union
 {
-    WORD UEP[16];
+    uint16_t UEP[16];
 } _UEP;
 
 #define UEP_STALL 0x0002
@@ -228,21 +228,21 @@ typedef union _POINTER
 {
     struct
     {
-        BYTE bLow;
-        BYTE bHigh;
+        uint8_t bLow;
+        uint8_t bHigh;
         //byte bUpper;
     };
-    WORD _word;                         // bLow & bHigh
+    uint16_t _word;                         // bLow & bHigh
     
     //pFunc _pFunc;                       // Usage: ptr.pFunc(); Init: ptr.pFunc = &<Function>;
 
-    BYTE* bRam;                         // Ram byte pointer: 2 bytes pointer pointing
+    uint8_t* bRam;                         // Ram byte pointer: 2 bytes pointer pointing
                                         // to 1 byte of data
-    WORD* wRam;                         // Ram word poitner: 2 bytes poitner pointing
+    uint16_t* wRam;                         // Ram word poitner: 2 bytes poitner pointing
                                         // to 2 bytes of data
 
-    ROM BYTE* bRom;                     // Size depends on compiler setting
-    ROM WORD* wRom;
+    ROM uint8_t* bRom;                     // Size depends on compiler setting
+    ROM uint16_t* wRom;
     //rom near byte* nbRom;               // Near = 2 bytes pointer
     //rom near word* nwRom;
     //rom far byte* fbRom;                // Far = 3 bytes pointer
@@ -267,7 +267,7 @@ typedef union _POINTER
 #define USB_FULL_SPEED 0x04
 //USB_LOW_SPEED not currently supported in PIC24F USB products
 
-#define ConvertToPhysicalAddress(a) ((DWORD)KVA_TO_PA(a))
+#define ConvertToPhysicalAddress(a) ((uint32_t)KVA_TO_PA(a))
 #define ConvertToVirtualAddress(a)  PA_TO_KVA1(a)
 
 /****************************************************************
@@ -296,14 +296,14 @@ typedef union _POINTER
 }    
 
 /********************************************************************
- * Function (macro): void USBClearInterruptFlag(register, BYTE if_flag_offset)
+ * Function (macro): void USBClearInterruptFlag(register, uint8_t if_flag_offset)
  *
  * PreCondition:    None
  *
  * Input:           
  *   register - the register mnemonic for the register holding the interrupt 
  *				flag to be "kleared"
- *   BYTE if_flag_offset - the bit position offset (for the interrupt flag to 
+ *   uint8_t if_flag_offset - the bit position offset (for the interrupt flag to 
  *							"klear") from the "right of the register"
  *
  * Output:          None
@@ -425,7 +425,7 @@ typedef union __attribute__ ((packed)) _BD_STAT
         unsigned            :2;
         unsigned    PID     :4;         //Packet Identifier
     };
-    WORD           Val;
+    uint16_t           Val;
 } BD_STAT;
 
 // BDT Entry Layout
@@ -434,17 +434,17 @@ typedef union __attribute__ ((packed))__BDT
     struct __attribute__ ((packed))
     {
         BD_STAT     STAT;
-        WORD        CNT:10;
-        DWORD       ADR;                      //Buffer Address
+        uint16_t        CNT:10;
+        uint32_t       ADR;                      //Buffer Address
     };
     struct __attribute__ ((packed))
     {
-        DWORD       res  :16;
-        DWORD       count:10;
+        uint32_t       res  :16;
+        uint32_t       count:10;
     };
-    DWORD           w[2];
-    WORD            v[4];
-    QWORD           Val;
+    uint32_t           w[2];
+    uint16_t            v[4];
+    uint64_t           Val;
 } BDT_ENTRY;
 
 // USTAT Register Layout
@@ -457,7 +457,7 @@ typedef union __USTAT
         unsigned char direction         :1;
         unsigned char endpoint_number   :4;
     };
-    BYTE Val;
+    uint8_t Val;
 } USTAT_FIELDS;
 
 //Macros for fetching parameters from a USTAT_FIELDS variable.
@@ -469,7 +469,7 @@ typedef union __USTAT
 #if defined(USB_SUPPORT_DEVICE) | defined(USB_SUPPORT_OTG)
 #if !defined(USBDEVICE_C)
     //extern USB_VOLATILE USB_DEVICE_STATE USBDeviceState;
-    extern USB_VOLATILE BYTE USBActiveConfiguration;
+    extern USB_VOLATILE uint8_t USBActiveConfiguration;
     extern USB_VOLATILE IN_PIPE inPipes[1];
     extern USB_VOLATILE OUT_PIPE outPipes[1];
     extern volatile BDT_ENTRY *pBDTEntryIn[USB_MAX_EP_NUMBER+1];

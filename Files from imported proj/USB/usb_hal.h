@@ -107,7 +107,7 @@ Description:
 
 /*************************************************************************
     Function:
-        void USBHALSetBusAddress( BYTE addr )
+        void USBHALSetBusAddress( unit8_t addr )
         
     Description:
         This routine sets the address of the system on the USB
@@ -141,12 +141,12 @@ Description:
 
 #define USBHALSetBusAddress OTGCORE_SetDeviceAddr
 
-void USBHALSetBusAddress( BYTE addr );
+void USBHALSetBusAddress( uint8_t addr );
 
 
 /*************************************************************************
     Function:
-        void USBHALControlUsbResistors( BYTE flags );
+        void USBHALControlUsbResistors( unit8_t flags );
         
     Description:
         This routine enables or disables the USB pull-up or
@@ -177,10 +177,10 @@ void USBHALSetBusAddress( BYTE addr );
  This routine is implemented as a macro to a lower-level level routine.
  */
  #if defined(__18CXX)
-    void USBHALControlUsbResistors( BYTE flags );
+    void USBHALControlUsbResistors( unit8_t flags );
  #else
     #define USBHALControlUsbResistors OTGCORE_ControlUsbResistors
-    void USBHALControlUsbResistors( BYTE flags );
+    void USBHALControlUsbResistors( uint8_t flags );
 #endif
 
 /* USBHALControlUsbResistors flags */
@@ -203,7 +203,7 @@ void USBHALSetBusAddress( BYTE addr );
 
 /*************************************************************************
     Function:
-       BOOL USBHALSessionIsValid( void )
+       bool USBHALSessionIsValid( void )
         
     Description:
         This routine determines if there is currently a valid
@@ -224,7 +224,7 @@ void USBHALSetBusAddress( BYTE addr );
 
  *************************************************************************/
 
-BOOL USBHALSessionIsValid( void );
+bool USBHALSessionIsValid( void );
 
 
 /*************************************************************************
@@ -250,7 +250,7 @@ BOOL USBHALSessionIsValid( void );
                   
  *************************************************************************/
 
-BOOL USBHALControlBusPower( BYTE cmd );
+bool USBHALControlBusPower( uint8_t cmd );
 
 /* USBHALControlBusPower Commands */
 #define USB_VBUS_DISCHARGE  0       // Dicharge Vbus via resistor
@@ -342,7 +342,7 @@ void USBHALHandleBusEvent ( void );
 
 /*************************************************************************
     Function:
-        BOOL USBHALStallPipe( TRANSFER_FLAGS pipe )
+        bool USBHALStallPipe( TRANSFER_FLAGS pipe )
         
     Description:
         This routine stalls the given endpoint.
@@ -378,12 +378,12 @@ void USBHALHandleBusEvent ( void );
 
 #define USBHALStallPipe OTGCORE_StallPipe
 
-BOOL USBHALStallPipe( TRANSFER_FLAGS pipe );
+bool USBHALStallPipe( TRANSFER_FLAGS pipe );
 
 
 /******************************************************************************
     Function:
-        BOOL USBHALUnstallPipe( TRANSFER_FLAGS pipe )
+        bool USBHALUnstallPipe( TRANSFER_FLAGS pipe )
         
     Description:
         This routine clears the stall condition for the given pipe.
@@ -415,7 +415,7 @@ BOOL USBHALStallPipe( TRANSFER_FLAGS pipe );
 
 #define USBHALUnstallPipe OTGCORE_UnstallPipe
 
-BOOL USBHALUnstallPipe( TRANSFER_FLAGS pipe );
+bool USBHALUnstallPipe( TRANSFER_FLAGS pipe );
 
 
 /**************************************************************************
@@ -449,12 +449,12 @@ BOOL USBHALUnstallPipe( TRANSFER_FLAGS pipe );
 
 #define USBHALGetStalledEndpoints OTGCORE_GetStalledEndpoints
 
-UINT16 USBHALGetStalledEndpoints ( void );
+uint16_t USBHALGetStalledEndpoints ( void );
 
 
 /******************************************************************************
     Function:
-        BOOL USBHALFlushPipe( TRANSFER_FLAGS pipe )
+        bool USBHALFlushPipe( TRANSFER_FLAGS pipe )
         
     Description:
         This routine clears any pending transfers on the given
@@ -486,7 +486,7 @@ UINT16 USBHALGetStalledEndpoints ( void );
         transfer has been terminated early by the host.
  *****************************************************************************/
 
-BOOL USBHALFlushPipe( TRANSFER_FLAGS pipe );
+bool USBHALFlushPipe( TRANSFER_FLAGS pipe );
 
 
 /**************************************************************************
@@ -546,7 +546,7 @@ BOOL USBHALFlushPipe( TRANSFER_FLAGS pipe );
         
  *************************************************************************/
 
-BOOL USBHALTransferData ( TRANSFER_FLAGS    flags,
+bool USBHALTransferData ( TRANSFER_FLAGS    flags,
                           void             *buffer,
                           unsigned int      size      );
 
@@ -586,7 +586,7 @@ BOOL USBHALTransferData ( TRANSFER_FLAGS    flags,
         set all flags to 0.
  *************************************************************************/
 
-BOOL USBHALSetEpConfiguration ( BYTE ep_num, UINT16 max_pkt_size, UINT16 flags );
+bool USBHALSetEpConfiguration ( uint8_t ep_num, uint16_t max_pkt_size, uint16_t flags );
 
 /* Flags for USBHALSetEpConfiguration */
 #if defined(__18CXX)
@@ -636,7 +636,7 @@ BOOL USBHALSetEpConfiguration ( BYTE ep_num, UINT16 max_pkt_size, UINT16 flags )
         
  *************************************************************************/
 
-BOOL USBHALInitialize ( unsigned long flags );
+bool USBHALInitialize ( unsigned long flags );
 
 #endif  // _USB_HAL_H_
 /*************************************************************************

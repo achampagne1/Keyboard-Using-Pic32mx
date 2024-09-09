@@ -108,7 +108,7 @@
 	#endif
     #define COMPILER_MPLAB_C32
 	#include <p32xxxx.h>
-    //#include <plib.h>
+    //#include <plib.h>  Is this include needed? we will see
 #else
 	#error Unknown processor or compiler.  See Compiler.h
 #endif

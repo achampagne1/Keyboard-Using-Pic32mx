@@ -6,8 +6,8 @@
  Software License Agreement:
 
  The software supplied herewith by Microchip Technology Incorporated
- (the “Company”) for its PIC® Microcontroller is intended and
- supplied to you, the Company’s customer, for use solely and
+ (the ?Company?) for its PIC® Microcontroller is intended and
+ supplied to you, the Company?s customer, for use solely and
  exclusively on Microchip PIC Microcontroller products. The
  software is owned by the Company and/or its supplier, and is
  protected under applicable copyright laws. All rights are reserved.
@@ -16,7 +16,7 @@
  civil liability for the breach of the terms and conditions of this
  license.
 
- THIS SOFTWARE IS PROVIDED IN AN “AS IS” CONDITION. NO WARRANTIES,
+ THIS SOFTWARE IS PROVIDED IN AN ?AS IS? CONDITION. NO WARRANTIES,
  WHETHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED
  TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
  PARTICULAR PURPOSE APPLY TO THIS SOFTWARE. THE COMPANY SHALL NOT,
@@ -36,7 +36,7 @@
     #pragma config FPLLMUL  = MUL_20        // PLL Multiplier
     #pragma config UPLLIDIV = DIV_2         // USB PLL Input Divider
     #pragma config FPLLIDIV = DIV_2         // PLL Input Divider
-    #pragma config FPLLODIV = DIV_1         // PLL Output Divider
+    #pragma config FPLLODIV = DIV_2         // PLL Output Divider
     #pragma config FPBDIV   = DIV_1         // Peripheral Clock divisor
     #pragma config FWDTEN   = OFF           // Watchdog Timer 
     #pragma config WDTPS    = PS1           // Watchdog Timer Postscale
@@ -56,10 +56,10 @@
 
 
 /** VARIABLES ******************************************************/
-BYTE old_emulate_switch;
+uint8_t old_emulate_switch;
 bool emulate_mode;
-BYTE movement_length;
-BYTE vector = 0;
+uint8_t movement_length;
+uint8_t vector = 0;
 char buffer[3];
 USB_HANDLE lastTransmission;
 
@@ -153,7 +153,9 @@ int main(void)
  *******************************************************************/
 static void InitializeSystem(void)
 {
-    AD1PCFG = 0xFFFF;
+    ANSELA = 0x0000;  // Configure all Port A pins as digital
+    ANSELB = 0x0000;  // Configure all Port B pins as digital
+    ANSELC = 0x0000;  // Configure all Port B pins as digital
 
     // The USB specifications require that USB peripheral devices must never source
     // current onto the Vbus pin.  Additionally, USB peripherals should not source
@@ -218,8 +220,8 @@ static void InitializeSystem(void)
  *****************************************************************************/
 void UserInit(void)
 {
-    // Initialize all of the LED pins
-    mInitAllLEDs();
+    // Initialize all of the LED pins not needed
+    //mInitAllLEDs();
     
     // Initialize all of the push buttons
     mInitAllSwitches();
@@ -261,7 +263,7 @@ void UserInit(void)
 void ProcessIO(void)
 {   
     //Blink the LEDs according to the USB device status
-    BlinkUSBStatus();
+    //BlinkUSBStatus();
 
     //
     // User Application USB tasks
@@ -346,7 +348,7 @@ void Emulate_Mouse(void)
         hid_report_in[2] = buffer[2];
      
         //Send the 3 byte packet over USB to the host.
-        lastTransmission = HIDTxPacket(HID_EP, (BYTE*)hid_report_in, 0x03);
+        lastTransmission = HIDTxPacket(HID_EP, (uint8_t*)hid_report_in, 0x03);
 
         //increment the counter of when to change the data sent
         movement_length++;
@@ -400,9 +402,11 @@ bool SwitchIsPressed(void)
  *                  USBDeviceState is declared and updated in
  *                  usb_device.c.
  *******************************************************************/
+
+/* currently dont have LED
 void BlinkUSBStatus(void)
 {
-    static WORD led_count=0;
+    static uint16_t led_count=0;
     
     if(led_count == 0)led_count = 10000U;
     led_count--;
@@ -470,7 +474,7 @@ void BlinkUSBStatus(void)
         }
     }
 }//end BlinkUSBStatus
-
+*/
 
 // ******************************************************************************************************
 // ************** USB Callback Functions ****************************************************************
@@ -786,7 +790,7 @@ void USBCBInitEP(void)
  *******************************************************************/
 void USBCBSendResume(void)
 {
-    static WORD delay_count;
+    static uint16_t delay_count;
     
     USBResumeControl = 1;                // Start RESUME signaling
     
@@ -820,7 +824,7 @@ void USBCBSendResume(void)
  *
  * Note:            None
  *******************************************************************/
-bool USER_USB_CALLBACK_EVENT_HANDLER(USB_EVENT event, void *pdata, WORD size)
+bool USER_USB_CALLBACK_EVENT_HANDLER(USB_EVENT event, void *pdata, uint16_t size)
 {
     switch(event)
     {

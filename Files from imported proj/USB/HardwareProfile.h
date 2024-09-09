@@ -41,7 +41,9 @@
 //  option carefully and determine which options are desired/required
 //  for your application.
 
+//Do I have to chnage this?
 //#define USE_SELF_POWER_SENSE_IO
+
 #define tris_self_power     TRISAbits.TRISA2    // Input
 #define self_power          1
 
@@ -66,8 +68,10 @@
 //  final application design.
 #define DEMO_BOARD PIC32_USB_STARTER_KIT
 
-/** LED ************************************************************/
-#define mInitAllLEDs()      LATD &= 0xFFF8; TRISD &= 0xFFF8;
+//the entire LED function can be removed, because it is specific to the 
+//dev board this project was originally built on
+/** LED ***********************************************************
+#define mInitAllLEDs()      LATD &= 0xFFF8; TRISD &= 0xFFF8;  
 
 #define mLED_1              LATDbits.LATD0
 #define mLED_2              LATDbits.LATD1
@@ -93,12 +97,13 @@
 #define mLED_2_Toggle()     mLED_2 = !mLED_2;
 #define mLED_3_Toggle()     mLED_3 = !mLED_3;
 #define mLED_4_Toggle()     
+*/
 
 /** SWITCH *********************************************************/
-#define mInitSwitch2()      TRISDbits.TRISD6=1;
-#define mInitSwitch3()      TRISDbits.TRISD7=1;
+#define mInitSwitch2()      TRISAbits.TRISA0=1;
+#define mInitSwitch3()      TRISAbits.TRISA1=1;
 #define mInitAllSwitches()  mInitSwitch2();mInitSwitch3();
-#define emulate_switch      PORTDbits.RD6
+#define emulate_switch      PORTAbits.RA2
 
 /** I/O pin definitions ********************************************/
 #define INPUT_PIN 1

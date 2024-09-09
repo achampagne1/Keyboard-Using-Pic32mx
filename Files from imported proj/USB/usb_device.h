@@ -99,6 +99,10 @@ Description:
   2.8    Added EVENT_TRANSFER_TERMINATED event enum item.
 
 ********************************************************************/
+#pragma once
+#include <stdbool.h> //included bool instead
+#include <stdint.h> //included int type
+//added for byte and bool support
 
 #ifndef USBDEVICE_H
 #define USBDEVICE_H
@@ -306,7 +310,7 @@ void USBDeviceInit(void);
 
 /********************************************************************
   Function:
-        BOOL USBGetRemoteWakeupStatus(void)
+        bool USBGetRemoteWakeupStatus(void)
     
   Summary:
     This function indicates if remote wakeup has been enabled by the host.
@@ -336,10 +340,10 @@ void USBDeviceInit(void);
     descriptor. For example:
 
     <code lang="c">
-    ROM BYTE configDescriptor1[]={
+    ROM uint8_t configDescriptor1[]={
         0x09,                           // Size 
         USB_DESCRIPTOR_CONFIGURATION,   // descriptor type 
-        DESC_CONFIG_WORD(0x0022),       // Total length 
+        DESC_CONFIG_uint16_t(0x0022),       // Total length 
         1,                              // Number of interfaces 
         1,                              // Index value of this cfg 
         0,                              // Configuration string index 
@@ -367,7 +371,7 @@ void USBDeviceInit(void);
     None
                                                                                                                                                                                                                                                                                                                        
   *******************************************************************/
-BOOL USBGetRemoteWakeupStatus(void);
+bool USBGetRemoteWakeupStatus(void);
 /*DOM-IGNORE-BEGIN*/
 #define USBGetRemoteWakeupStatus() RemoteWakeup
 /*DOM-IGNORE-END*/
@@ -431,7 +435,7 @@ USB_DEVICE_STATE USBGetDeviceState(void);
 
 /***************************************************************************
   Function:
-        BOOL USBGetSuspendState(void)
+        bool USBGetSuspendState(void)
     
   Summary:
     This function indicates if this device is currently suspended. When a
@@ -474,11 +478,11 @@ USB_DEVICE_STATE USBGetDeviceState(void);
   Remarks:
     None                                                                    
   ***************************************************************************/
-BOOL USBGetSuspendState(void);
+bool USBGetSuspendState(void);
 
 /*******************************************************************************
   Function:
-        void USBEnableEndpoint(BYTE ep, BYTE options)
+        void USBEnableEndpoint(uint8_t ep, uint8_t options)
     
   Summary:
     This function will enable the specified endpoint with the specified
@@ -503,8 +507,8 @@ BOOL USBGetSuspendState(void);
   Conditions:
     None
   Input:
-    BYTE ep -       the endpoint to be configured
-    BYTE options -  optional settings for the endpoint. The options should
+    uint8_t ep -       the endpoint to be configured
+    uint8_t options -  optional settings for the endpoint. The options should
                     be ORed together to form a single options string. The
                     available optional settings for the endpoint. The
                     options should be ORed together to form a single options
@@ -525,11 +529,11 @@ BOOL USBGetSuspendState(void);
   Remarks:
     None                                                                                                          
   *****************************************************************************/
-void USBEnableEndpoint(BYTE ep, BYTE options);
+void USBEnableEndpoint(uint8_t ep, uint8_t options);
 
 /*******************************************************************************
   Function:
-        BOOL USBIsDeviceSuspended(void)
+        bool USBIsDeviceSuspended(void)
     
   Summary:
     This function indicates if the USB module is in suspend mode.
@@ -557,7 +561,7 @@ void USBEnableEndpoint(BYTE ep, BYTE options);
   Remarks:
     None                                                                                                          
   *****************************************************************************/
-BOOL USBIsDeviceSuspended(void);
+bool USBIsDeviceSuspended(void);
 /*DOM-IGNORE-BEGIN*/
 #define USBIsDeviceSuspended() USBSuspendControl 
 /*DOM-IGNORE-END*/
@@ -565,7 +569,7 @@ BOOL USBIsDeviceSuspended(void);
 
 /*******************************************************************************
   Function:
-        BOOL USBIsBusSuspended(void);
+        bool USBIsBusSuspended(void);
     
   Summary:
     This function indicates if the USB bus is in suspend mode.
@@ -600,7 +604,7 @@ BOOL USBIsDeviceSuspended(void);
     in order to be sure the return value is not "stale", it is suggested to make
     sure USBDeviceTasks() has executed recently (if using USB polling mode).
   *****************************************************************************/
-BOOL USBIsBusSuspended(void);
+bool USBIsBusSuspended(void);
 /*DOM-IGNORE-BEGIN*/
 #define USBIsBusSuspended() USBBusIsSuspended
 /*DOM-IGNORE-END*/
@@ -633,7 +637,7 @@ void USBSoftDetach(void);
 
 /*************************************************************************
   Function:
-    USB_HANDLE USBTransferOnePacket(BYTE ep, BYTE dir, BYTE* data, BYTE len)
+    USB_HANDLE USBTransferOnePacket(uint8_t ep, uint8_t dir, uint8_t* data, uint8_t len)
     
   Summary:
     Transfers a single packet (one transaction) of data on the USB bus.
@@ -675,7 +679,7 @@ void USBSoftDetach(void);
 	        //INPacket[2] = ... (fill in the rest of the packet data)
 	      
             //Send the data contained in the INPacket[] array through endpoint "EP_NUM"
-            USBInHandle = USBTransferOnePacket(EP_NUM,IN_TO_HOST,(BYTE*)&INPacket[0],sizeof(INPacket));
+            USBInHandle = USBTransferOnePacket(EP_NUM,IN_TO_HOST,(uint8_t*)&INPacket[0],sizeof(INPacket));
         }
     }
     </code>
@@ -693,14 +697,14 @@ void USBSoftDetach(void);
         USBTransferOnePacket().
  					
   Input:
-    BYTE ep - The endpoint number that the data will be transmitted or 
+    uint8_t ep - The endpoint number that the data will be transmitted or 
 	          received on
-    BYTE dir - The direction of the transfer
+    uint8_t dir - The direction of the transfer
                This value is either OUT_FROM_HOST or IN_TO_HOST
-    BYTE* data - For IN transactions: pointer to the RAM buffer containing 
+    uint8_t* data - For IN transactions: pointer to the RAM buffer containing 
                  the data to be sent to the host.  For OUT transactions: pointer
                  to the RAM buffer that the received data should get written to.
-   BYTE len - Length of the data needing to be sent (for IN transactions).
+   uint8_t len - Length of the data needing to be sent (for IN transactions).
               For OUT transactions, the len parameter should normally be set
               to the endpoint size specified in the endpoint descriptor.    
 
@@ -721,11 +725,11 @@ void USBSoftDetach(void);
     function first.  
     
   *************************************************************************/
-USB_HANDLE USBTransferOnePacket(BYTE ep,BYTE dir,BYTE* data,BYTE len);
+USB_HANDLE USBTransferOnePacket(uint8_t ep,uint8_t dir,uint8_t* data,uint8_t len);
 
 /*************************************************************************
   Function:
-    BOOL USBHandleBusy(USB_HANDLE handle)
+    bool USBHandleBusy(USB_HANDLE handle)
     
   Summary:
     Checks to see if the input handle is busy
@@ -740,7 +744,7 @@ USB_HANDLE USBTransferOnePacket(BYTE ep,BYTE dir,BYTE* data,BYTE len);
     {
         //Send the data contained in the INPacket[] array out on
         //  endpoint USBGEN_EP_NUM
-        USBGenericInHandle = USBGenWrite(USBGEN_EP_NUM,(BYTE*)&INPacket[0],sizeof(INPacket));
+        USBGenericInHandle = USBGenWrite(USBGEN_EP_NUM,(uint8_t*)&INPacket[0],sizeof(INPacket));
     }
     </code>
 
@@ -755,14 +759,14 @@ USB_HANDLE USBTransferOnePacket(BYTE ep,BYTE dir,BYTE* data,BYTE len);
   Remarks:
     None                                                                  
   *************************************************************************/
-BOOL USBHandleBusy(USB_HANDLE handle);
+bool USBHandleBusy(USB_HANDLE handle);
 /*DOM-IGNORE-BEGIN*/
 #define USBHandleBusy(handle) (handle==0?0:((volatile BDT_ENTRY*)handle)->STAT.UOWN)
 /*DOM-IGNORE-END*/
 
 /********************************************************************
     Function:
-        WORD USBHandleGetLength(USB_HANDLE handle)
+        uint16_t USBHandleGetLength(USB_HANDLE handle)
         
     Summary:
         Retrieves the length of the destination buffer of the input
@@ -780,7 +784,7 @@ BOOL USBHandleBusy(USB_HANDLE handle);
         address for.
         
     Return Values:
-        WORD - length of the current buffer that the input handle
+        uint16_t - length of the current buffer that the input handle
         points to.  If the transfer is complete then this is the 
         length of the data transmitted or the length of data
         actually received.
@@ -789,14 +793,14 @@ BOOL USBHandleBusy(USB_HANDLE handle);
         None
  
  *******************************************************************/
-WORD USBHandleGetLength(USB_HANDLE handle);
+uint16_t USBHandleGetLength(USB_HANDLE handle);
 /*DOM-IGNORE-BEGIN*/
 #define USBHandleGetLength(handle) (((volatile BDT_ENTRY*)handle)->CNT)
 /*DOM-IGNORE-END*/
 
 /********************************************************************
     Function:
-        WORD USBHandleGetAddr(USB_HANDLE)
+        uint16_t USBHandleGetAddr(USB_HANDLE)
         
     Summary:
         Retrieves the address of the destination buffer of the input
@@ -814,21 +818,21 @@ WORD USBHandleGetLength(USB_HANDLE handle);
         address for.
         
     Return Values:
-        WORD - address of the current buffer that the input handle
+        uint16_t - address of the current buffer that the input handle
         points to.
        
     Remarks:
         None
  
  *******************************************************************/
-WORD USBHandleGetAddr(USB_HANDLE);
+uint16_t USBHandleGetAddr(USB_HANDLE);
 /*DOM-IGNORE-BEGIN*/
 #define USBHandleGetAddr(handle) ConvertToVirtualAddress((((volatile BDT_ENTRY*)handle)->ADR))
 /*DOM-IGNORE-END*/
 
 /********************************************************************
     Function:
-        void USBEP0Transmit(BYTE options)
+        void USBEP0Transmit(uint8_t options)
         
     Summary:
         Sets the address of the data to send over the
@@ -854,14 +858,14 @@ WORD USBHandleGetAddr(USB_HANDLE);
         None
  
  *******************************************************************/
-void USBEP0Transmit(BYTE options);
+void USBEP0Transmit(uint8_t options);
 /*DOM-IGNORE-BEGIN*/
 #define USBEP0Transmit(options) inPipes[0].info.Val = options | USB_EP0_BUSY
 /*DOM-IGNORE-END*/
 
 /*************************************************************************
   Function:
-        void USBEP0SendRAMPtr(BYTE* src, WORD size, BYTE Options)
+        void USBEP0SendRAMPtr(uint8_t* src, uint16_t size, uint8_t Options)
     
   Summary:
     Sets the source, size, and options of the data you wish to send from a
@@ -882,7 +886,7 @@ void USBEP0Transmit(BYTE options);
   Remarks:
     None                                                                  
   *************************************************************************/
-void USBEP0SendRAMPtr(BYTE* src, WORD size, BYTE Options);
+void USBEP0SendRAMPtr(uint8_t* src, uint16_t size, uint8_t Options);
 /*DOM-IGNORE-BEGIN*/
 #define USBEP0SendRAMPtr(src,size,options)  {\
             inPipes[0].pSrc.bRam = src;\
@@ -893,7 +897,7 @@ void USBEP0SendRAMPtr(BYTE* src, WORD size, BYTE Options);
 
 /**************************************************************************
   Function:
-        void USBEP0SendROMPtr(BYTE* src, WORD size, BYTE Options)
+        void USBEP0SendROMPtr(uint8_t* src, uint16_t size, uint8_t Options)
     
   Summary:
     Sets the source, size, and options of the data you wish to send from a
@@ -914,7 +918,7 @@ void USBEP0SendRAMPtr(BYTE* src, WORD size, BYTE Options);
   Remarks:
     None                                                                   
   **************************************************************************/
-void USBEP0SendROMPtr(BYTE* src, WORD size, BYTE Options);
+void USBEP0SendROMPtr(uint8_t* src, uint16_t size, uint8_t Options);
 /*DOM-IGNORE-BEGIN*/
 #define USBEP0SendROMPtr(src,size,options)  {\
             inPipes[0].pSrc.bRom = src;\
@@ -925,7 +929,7 @@ void USBEP0SendROMPtr(BYTE* src, WORD size, BYTE Options);
 
 /***************************************************************************
   Function:
-    void USBEP0Receive(BYTE* dest, WORD size, void (*function))
+    void USBEP0Receive(uint8_t* dest, uint16_t size, void (*function))
   Summary:
     Sets the destination, size, and a function to call on the completion of
     the next control write.
@@ -942,14 +946,14 @@ void USBEP0SendROMPtr(BYTE* src, WORD size, BYTE Options);
   Remarks:
     None                                                                    
   ***************************************************************************/
-void USBEP0Receive(BYTE* dest, WORD size, void (*function));
+void USBEP0Receive(uint8_t* dest, uint16_t size, void (*function));
 /*DOM-IGNORE-BEGIN*/
 #define USBEP0Receive(dest,size,function)  {outPipes[0].pDst.bRam = dest;outPipes[0].wCount.Val = size;outPipes[0].pFunc = function;outPipes[0].info.bits.busy = 1; }
 /*DOM-IGNORE-END*/
 
 /********************************************************************
     Function:
-        USB_HANDLE USBTxOnePacket(BYTE ep, BYTE* data, WORD len)
+        USB_HANDLE USBTxOnePacket(uint8_t ep, uint8_t* data, uint16_t len)
         
     Summary:
         Sends the specified data out the specified endpoint
@@ -970,14 +974,14 @@ void USBEP0Receive(BYTE* dest, WORD size, void (*function));
         None
   
  *******************************************************************/
-USB_HANDLE USBTxOnePacket(BYTE ep, BYTE* data, WORD len);
+USB_HANDLE USBTxOnePacket(uint8_t ep, uint8_t* data, uint16_t len);
 /*DOM-IGNORE-BEGIN*/
 #define USBTxOnePacket(ep,data,len)     USBTransferOnePacket(ep,IN_TO_HOST,data,len)
 /*DOM-IGNORE-END*/
 
 /********************************************************************
     Function:
-        USB_HANDLE USBRxOnePacket(BYTE ep, BYTE* data, WORD len)
+        USB_HANDLE USBRxOnePacket(uint8_t ep, uint8_t* data, uint16_t len)
         
     Summary:
         Receives the specified data out the specified endpoint
@@ -997,14 +1001,14 @@ USB_HANDLE USBTxOnePacket(BYTE ep, BYTE* data, WORD len);
         None
   
  *******************************************************************/
-USB_HANDLE USBRxOnePacket(BYTE ep, BYTE* data, WORD len);
+USB_HANDLE USBRxOnePacket(uint8_t ep, uint8_t* data, uint16_t len);
 /*DOM-IGNORE-BEGIN*/
 #define USBRxOnePacket(ep,data,len)      USBTransferOnePacket(ep,OUT_FROM_HOST,data,len)
 /*DOM-IGNORE-END*/
 
 /********************************************************************
     Function:
-        void USBStallEndpoint(BYTE ep, BYTE dir)
+        void USBStallEndpoint(uint8_t ep, uint8_t dir)
         
     Summary:
          STALLs the specified endpoint
@@ -1013,8 +1017,8 @@ USB_HANDLE USBRxOnePacket(BYTE ep, BYTE* data, WORD len);
         None
         
     Parameters:
-        BYTE ep - the endpoint the data will be transmitted on
-        BYTE dir - the direction of the transfer
+        uint8_t ep - the endpoint the data will be transmitted on
+        uint8_t dir - the direction of the transfer
         
     Return Values:
         None
@@ -1023,7 +1027,7 @@ USB_HANDLE USBRxOnePacket(BYTE ep, BYTE* data, WORD len);
         None
 
  *******************************************************************/
-void USBStallEndpoint(BYTE ep, BYTE dir);
+void USBStallEndpoint(uint8_t ep, uint8_t dir);
 
 /**************************************************************************
     Function:
@@ -1103,7 +1107,7 @@ void USBDeviceAttach(void);
 
 /*******************************************************************************
   Function:
-    BOOL USB_APPLICATION_EVENT_HANDLER(BYTE address, USB_EVENT event, void *pdata, WORD size);
+    bool USB_APPLICATION_EVENT_HANDLER(uint8_t address, USB_EVENT event, void *pdata, uint16_t size);
     
   Summary:
     This function is called whenever the USB stack wants to notify the user of
@@ -1118,8 +1122,8 @@ void USBDeviceAttach(void);
     None
 
   Input:
-    BYTE address -  the address of the device when the event happened
-    BYTE event   -  The event input specifies which event happened.  The
+    uint8_t address -  the address of the device when the event happened
+    uint8_t event   -  The event input specifies which event happened.  The
                     possible options are listed in the USB_DEVICE_STACK_EVENTS
                     enumeration.
 
@@ -1128,7 +1132,7 @@ void USBDeviceAttach(void);
   Remarks:
     None                                                                                                          
   *****************************************************************************/
-BOOL USB_APPLICATION_EVENT_HANDLER(BYTE address, USB_EVENT event, void *pdata, WORD size);
+bool USB_APPLICATION_EVENT_HANDLER(uint8_t address, USB_EVENT event, void *pdata, uint16_t size);
 
 /*******************************************************************************
   Function:
@@ -1150,9 +1154,9 @@ BOOL USB_APPLICATION_EVENT_HANDLER(BYTE address, USB_EVENT event, void *pdata, W
     None
 
   Input:
-    BYTE *length -  pointer to a variable that should be set to the length of 
+    uint8_t *length -  pointer to a variable that should be set to the length of 
                     the requested descriptor.  
-    BYTE *id     -  This structure contains information about the requested
+    uint8_t *id     -  This structure contains information about the requested
                     descriptor
 
   Return:
@@ -1160,8 +1164,8 @@ BOOL USB_APPLICATION_EVENT_HANDLER(BYTE address, USB_EVENT event, void *pdata, W
   Remarks:
     None                                                                                                          
   *****************************************************************************/
-void *USBDeviceCBGetDescriptor (    UINT16 *length, 
-                                    UINT8 *ptr_type,
+void *USBDeviceCBGetDescriptor (    uint16_t *length, 
+                                    uint8_t *ptr_type,
                                     DESCRIPTOR_ID *id);
 
 
@@ -1262,7 +1266,7 @@ void USBCtrlEPAllowStatusStage(void);
             USER_GET_REPORT_HANDLER or USER_SET_REPORT_HANDLER functions.                                                                                                                
   *****************************************************************************/
 void USBDeferStatusStage(void);
-extern volatile BOOL USBDeferStatusStagePacket;
+extern volatile bool USBDeferStatusStagePacket;
 /*DOM-IGNORE-BEGIN*/
 #define USBDeferStatusStage()   {USBDeferStatusStagePacket = TRUE;}
 /*DOM-IGNORE-END*/
@@ -1371,7 +1375,7 @@ void USBCtrlEPAllowDataStage(void);
            can never contain both IN and OUT data packets during the data stage).
   *****************************************************************************/
 void USBDeferOUTDataStage(void);
-extern volatile BOOL USBDeferOUTDataStagePackets;
+extern volatile bool USBDeferOUTDataStagePackets;
 /*DOM-IGNORE-BEGIN*/
 #define USBDeferOUTDataStage()   {USBDeferOUTDataStagePackets = TRUE; outPipes[0].info.bits.busy = 1;}
 /*DOM-IGNORE-END*/
@@ -1379,7 +1383,7 @@ extern volatile BOOL USBDeferOUTDataStagePackets;
 
 
 /*******************************************************************************
-  Function: BOOL USBOUTDataStageDeferred(void);
+  Function: bool USBOUTDataStageDeferred(void);
     
   Summary: Returns TRUE if a control transfer with OUT data stage is pending,
             and the firmware has called USBDeferOUTDataStage(), but has not
@@ -1423,7 +1427,7 @@ extern volatile BOOL USBDeferOUTDataStagePackets;
 
   Remarks: 
   *****************************************************************************/
-BOOL USBOUTDataStageDeferred(void);
+bool USBOUTDataStageDeferred(void);
 /*DOM-IGNORE-BEGIN*/
 #define USBOUTDataStageDeferred() USBDeferOUTDataStagePackets
 /*DOM-IGNORE-END*/
@@ -1507,7 +1511,7 @@ BOOL USBOUTDataStageDeferred(void);
            can never contain both IN and OUT data packets during the data stage).
   *****************************************************************************/
 void USBDeferINDataStage(void);
-extern volatile BOOL USBDeferINDataStagePackets;
+extern volatile bool USBDeferINDataStagePackets;
 /*DOM-IGNORE-BEGIN*/
 #define USBDeferINDataStage()   {USBDeferINDataStagePackets = TRUE; inPipes[0].info.bits.busy = 1;}
 /*DOM-IGNORE-END*/
@@ -1515,7 +1519,7 @@ extern volatile BOOL USBDeferINDataStagePackets;
 
 
 /*******************************************************************************
-  Function: BOOL USBINDataStageDeferred(void);
+  Function: bool USBINDataStageDeferred(void);
     
   Summary: Returns TRUE if a control transfer with IN data stage is pending,
             and the firmware has called USBDeferINDataStage(), but has not
@@ -1560,7 +1564,7 @@ extern volatile BOOL USBDeferINDataStagePackets;
 
   Remarks: 
   *****************************************************************************/
-BOOL USBINDataStageDeferred(void);
+bool USBINDataStageDeferred(void);
 /*DOM-IGNORE-BEGIN*/
 #define USBINDataStageDeferred() USBDeferINDataStagePackets
 /*DOM-IGNORE-END*/
@@ -1569,7 +1573,7 @@ BOOL USBINDataStageDeferred(void);
 
 /**************************************************************************
     Function:
-        void USBCancelIO(BYTE endpoint)
+        void USBCancelIO(uint8_t endpoint)
     
     Description:
         This function cancels the transfers pending on the specified endpoint.
@@ -1581,7 +1585,7 @@ BOOL USBINDataStageDeferred(void);
     Precondition:
   
     Parameters:
-        BYTE endpoint - the endpoint number you wish to cancel the transfers for
+        uint8_t endpoint - the endpoint number you wish to cancel the transfers for
      
     Return Values:
         None
@@ -1590,38 +1594,38 @@ BOOL USBINDataStageDeferred(void);
         None
                                                           
   **************************************************************************/
-void USBCancelIO(BYTE endpoint);
+void USBCancelIO(uint8_t endpoint);
 
 
 /** Section: MACROS ******************************************************/
 
-/* The DESC_CONFIG_WORD() macro is implemented for convinence.  Since the 
-    configuration descriptor array is a BYTE array, each entry needs to be a
-    BYTE in LSB format.  The DESC_CONFIG_WORD() macro breaks up a WORD into 
-    the appropriate BYTE entries in LSB.
+/* The DESC_CONFIG_uint16_t() macro is implemented for convinence.  Since the 
+    configuration descriptor array is a uint8_t array, each entry needs to be a
+    uint8_t in LSB format.  The DESC_CONFIG_uint16_t() macro breaks up a uint16_t into 
+    the appropriate uint8_t entries in LSB.
     Typical Usage:
     <code>
-        ROM BYTE configDescriptor1[]={
+        ROM uint8_t configDescriptor1[]={
             0x09,                           // Size of this descriptor in bytes
             USB_DESCRIPTOR_CONFIGURATION,   // CONFIGURATION descriptor type
-            DESC_CONFIG_WORD(0x0022),       // Total length of data for this cfg
+            DESC_CONFIG_uint16_t(0x0022),       // Total length of data for this cfg
     </code>
 */
-#define DESC_CONFIG_WORD(a) (a&0xFF),((a>>8)&0xFF)
+#define DESC_CONFIG_uint16_t(a) (a&0xFF),((a>>8)&0xFF)
 
-/* The DESC_CONFIG_DWORD() macro is implemented for convinence.  Since the 
-    configuration descriptor array is a BYTE array, each entry needs to be a
-    BYTE in LSB format.  The DESC_CONFIG_DWORD() macro breaks up a DWORD into 
-    the appropriate BYTE entries in LSB.
+/* The DESC_CONFIG_Duint16_t() macro is implemented for convinence.  Since the 
+    configuration descriptor array is a uint8_t array, each entry needs to be a
+    uint8_t in LSB format.  The DESC_CONFIG_Duint16_t() macro breaks up a Duint16_t into 
+    the appropriate uint8_t entries in LSB.
 */
-#define DESC_CONFIG_DWORD(a) (a&0xFF),((a>>8)&0xFF),((a>>16)&0xFF),((a>>24)&0xFF)
+#define DESC_CONFIG_Duint16_t(a) (a&0xFF),((a>>8)&0xFF),((a>>16)&0xFF),((a>>24)&0xFF)
 
-/* The DESC_CONFIG_BYTE() macro is implemented for convinence.  The 
-    DESC_CONFIG_BYTE() macro provides a consistant macro for use with a byte
+/* The DESC_CONFIG_uint8_t() macro is implemented for convinence.  The 
+    DESC_CONFIG_uint8_t() macro provides a consistant macro for use with a byte
     when generating a configuratin descriptor when using either the 
-    DESC_CONFIG_WORD() or DESC_CONFIG_DWORD() macros.
+    DESC_CONFIG_uint16_t() or DESC_CONFIG_Duint16_t() macros.
 */
-#define DESC_CONFIG_BYTE(a) (a)
+#define DESC_CONFIG_uint8_t(a) (a)
 
 
 
@@ -1661,31 +1665,40 @@ void USBCancelIO(BYTE endpoint);
 // Defintion of the PIPE structure
 //  This structure is used to keep track of data that is sent out
 //  of the stack automatically.
+
+/*typedef union { //Added to allow for WORD_VAL
+    uint16_t word;
+    struct {
+        uint8_t low;
+        uint8_t high;
+    };
+} WORD_VAL;*/
+
 typedef struct __attribute__ ((packed))
 {
     union __attribute__ ((packed))
     {
         //Various options of pointers that are available to
         // get the data from
-        BYTE *bRam;
-        ROM BYTE *bRom;
-        WORD *wRam;
-        ROM WORD *wRom;
+        uint8_t *bRam;
+        ROM uint8_t *bRom;
+        uint16_t *wRam;
+        ROM uint16_t *wRom;
     }pSrc;
     union __attribute__ ((packed))
     {
         struct __attribute__ ((packed))
         {
             //is this transfer from RAM or ROM?
-            BYTE ctrl_trf_mem          :1;
-            BYTE reserved              :5;
+            uint8_t ctrl_trf_mem          :1;
+            uint8_t reserved              :5;
             //include a zero length packet after
             //data is done if data_size%ep_size = 0?
-            BYTE includeZero           :1;
+            uint8_t includeZero           :1;
             //is this PIPE currently in use
-            BYTE busy                  :1;
+            uint8_t busy                  :1;
         }bits;
-        BYTE Val;
+        uint8_t Val;
     }info;
     WORD_VAL __attribute__((aligned)) wCount;
 }IN_PIPE;
@@ -1698,18 +1711,18 @@ typedef struct __attribute__ ((packed))
     {
         //Various options of pointers that are available to
         // get the data from
-        BYTE *bRam;
-        WORD *wRam;
+        uint8_t *bRam;
+        uint16_t *wRam;
     }pDst;
     union __attribute__ ((packed))
     {
         struct __attribute__ ((packed))
         {
-            BYTE reserved              :7;
+            uint8_t reserved              :7;
             //is this PIPE currently in use
-            BYTE busy                  :1;
+            uint8_t busy                  :1;
         }bits;
-        BYTE Val;
+        uint8_t Val;
     }info;
     WORD_VAL wCount;
     CTRL_TRF_RETURN (*pFunc)(CTRL_TRF_PARAMS);
@@ -1723,10 +1736,10 @@ typedef struct __attribute__ ((packed))
 //    #define USBCB_EP0_DATA_RECEIVED()
 //#endif
 
-extern USB_VOLATILE BOOL RemoteWakeup;
-extern USB_VOLATILE BOOL USBBusIsSuspended;
+extern USB_VOLATILE bool RemoteWakeup;
+extern USB_VOLATILE bool USBBusIsSuspended;
 extern USB_VOLATILE USB_DEVICE_STATE USBDeviceState;
-extern USB_VOLATILE BYTE USBActiveConfiguration;
+extern USB_VOLATILE uint8_t USBActiveConfiguration;
 /******************************************************************************/
 /* DOM-IGNORE-END */
 

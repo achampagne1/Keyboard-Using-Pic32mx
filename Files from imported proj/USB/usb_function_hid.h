@@ -153,7 +153,7 @@
         {
             //Send the data contained in the ToSendDataBuffer[] array out on
             //  endpoint HID_EP
-            USBInHandle = HIDTxPacket(HID_EP,(BYTE*)&ToSendDataBuffer[0],sizeof(ToSendDataBuffer));
+            USBInHandle = HIDTxPacket(HID_EP,(uint8_t*)&ToSendDataBuffer[0],sizeof(ToSendDataBuffer));
         }
         </code>
 
@@ -225,7 +225,7 @@
 
 /********************************************************************
     Function:
-        USB_HANDLE HIDTxPacket(BYTE ep, BYTE* data, WORD len)
+        USB_HANDLE HIDTxPacket(uint8_t ep, uint8_t* data, uint16_t len)
         
     Summary:
         Sends the specified data out the specified endpoint
@@ -241,7 +241,7 @@
         {
             //Send the data contained in the ToSendDataBuffer[] array out on
             //  endpoint HID_EP
-            USBInHandle = HIDTxPacket(HID_EP,(BYTE*)&ToSendDataBuffer[0],sizeof(ToSendDataBuffer));
+            USBInHandle = HIDTxPacket(HID_EP,(uint8_t*)&ToSendDataBuffer[0],sizeof(ToSendDataBuffer));
         }
         </code>
         
@@ -265,7 +265,7 @@
 
 /********************************************************************
     Function:
-        USB_HANDLE HIDRxPacket(BYTE ep, BYTE* data, WORD len)
+        USB_HANDLE HIDRxPacket(uint8_t ep, uint8_t* data, uint16_t len)
         
     Summary:
         Receives the specified data out the specified endpoint
@@ -278,7 +278,7 @@
         //Read 64-bytes from endpoint HID_EP, into the ReceivedDataBuffer array.
         //  Make sure to save the return handle so that we can check it later
         //  to determine when the transfer is complete.
-        USBOutHandle = HIDRxPacket(HID_EP,(BYTE*)&ReceivedDataBuffer,64);
+        USBOutHandle = HIDRxPacket(HID_EP,(uint8_t*)&ReceivedDataBuffer,64);
         </code>
 
     PreCondition:
@@ -305,19 +305,19 @@
 //"6.2.1 HID Descriptor" of the HID class definition specification
 typedef struct _USB_HID_DSC_HEADER
 {
-    BYTE bDescriptorType;	//offset 9
-    WORD wDscLength;		//offset 10
+    uint8_t bDescriptorType;	//offset 9
+    uint16_t wDscLength;		//offset 10
 } USB_HID_DSC_HEADER;
 
 //USB HID Descriptor header as detailed in section 
 //"6.2.1 HID Descriptor" of the HID class definition specification
 typedef struct _USB_HID_DSC
 {
-    BYTE bLength;			//offset 0 
-	BYTE bDescriptorType;	//offset 1
-	WORD bcdHID;			//offset 2
-    BYTE bCountryCode;		//offset 4
-	BYTE bNumDsc;			//offset 5
+    uint8_t bLength;			//offset 0 
+	uint8_t bDescriptorType;	//offset 1
+	uint16_t bcdHID;			//offset 2
+    uint8_t bCountryCode;		//offset 4
+	uint8_t bNumDsc;			//offset 5
 
 
     //USB_HID_DSC_HEADER hid_dsc_header[HID_NUM_OF_DSC];
@@ -329,11 +329,11 @@ typedef struct _USB_HID_DSC
 extern volatile unsigned char hid_report_in[HID_INT_IN_EP_SIZE];
 extern volatile unsigned char hid_report_out[HID_INT_OUT_EP_SIZE];
 extern volatile CTRL_TRF_SETUP SetupPkt;
-extern ROM BYTE configDescriptor1[];
-extern volatile BYTE CtrlTrfData[USB_EP0_BUFF_SIZE];
+extern ROM uint8_t configDescriptor1[];
+extern volatile uint8_t CtrlTrfData[USB_EP0_BUFF_SIZE];
 
 #if !defined(__USB_DESCRIPTORS_C)
-extern ROM struct{BYTE report[HID_RPT01_SIZE];}hid_rpt01;
+extern ROM struct{uint8_t report[HID_RPT01_SIZE];}hid_rpt01;
 #endif
 
 /** Section: PUBLIC PROTOTYPES **********************************************/

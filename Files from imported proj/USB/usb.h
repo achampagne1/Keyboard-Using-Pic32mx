@@ -7,7 +7,7 @@
  *********************************************************************/
 //DOM-IGNORE-END
 /*******************************************************************************
-
+D:\PIC32_USK_USB_Device_HID_Mouse\USB\usb.h
     USB Header File
 
 Summary:
@@ -108,6 +108,7 @@ Description:
 // *****************************************************************************
 
 //#include "GenericTypeDefs.h" not a thing in xc32
+#pragma once
 #include <stdbool.h> //included bool instead
 #include <stdint.h> //included int type
 #include "Compiler.h"

@@ -75,6 +75,11 @@ CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
   2.6a   Changed the limit of USB_EVENT from UINT_MAX to INT_MAX
   2.7    No change
 ********************************************************************/
+
+#pragma once
+#include <stdbool.h> //included bool instead
+#include <stdint.h> //included int type
+//added for byte and bool support
 //DOM-IGNORE-END
 
 
@@ -169,14 +174,14 @@ and properties of the data transfer.
 
 typedef union
 {
-    BYTE    bitmap;
+    uint8_t    bitmap;
     struct
     {
-        BYTE ep_num:    4;
-        BYTE zero_pkt:  1;
-        BYTE dts:       1;
-        BYTE force_dts: 1;
-        BYTE direction: 1;
+        uint8_t ep_num:    4;
+        uint8_t zero_pkt:  1;
+        uint8_t dts:       1;
+        uint8_t force_dts: 1;
+        uint8_t direction: 1;
     }field;
 
 } TRANSFER_FLAGS;
@@ -229,7 +234,7 @@ This macro can be used with the above bitmap constants to initialize a
 TRANSFER_FLAGS value.  It provides the correct data type to avoid compiler
 warnings.
 */
-#define XFLAGS(f) ((TRANSFER_FLAGS)((BYTE)(f)))             // Initialization Macro
+#define XFLAGS(f) ((TRANSFER_FLAGS)((uint8_t)(f)))             // Initialization Macro
 
 
 // *****************************************************************************
@@ -256,7 +261,7 @@ typedef enum
     // A stall has occured.  This event is not used by the Host stack.
     EVENT_STALL,                  
     
-    // VBus SRP Pulse, (VBus > 2.0v),  Data: BYTE Port Number (For future support)
+    // VBus SRP Pulse, (VBus > 2.0v),  Data: uint8_t Port Number (For future support)
     EVENT_VBUS_SES_REQUEST,     
     
     // The voltage on Vbus has dropped below 4.4V/4.7V.  The application is 
@@ -306,7 +311,7 @@ typedef enum
     EVENT_UNSPECIFIED_ERROR,     
              
     // USB cable has been detached.  The data associated with this event is the
-    // address of detached device, a single BYTE.
+    // address of detached device, a single uint8_t.
     EVENT_DETACH, 
      
     // A USB transfer has completed.  The data associated with this event is of
@@ -378,8 +383,8 @@ direction, and actual size of the transfer.
 typedef struct _transfer_event_data
 {
     TRANSFER_FLAGS  flags;          // Transfer flags (see above)
-    UINT32          size;           // Actual number of bytes transferred
-    BYTE            pid;            // Packet ID
+    uint8_t          size;           // Actual number of bytes transferred
+    uint8_t            pid;            // Packet ID
 
 } USB_TRANSFER_EVENT_DATA;
 
@@ -394,8 +399,8 @@ event has occured, indicating that a change in Vbus power is being requested.
 
 typedef struct _vbus_power_data
 {
-    BYTE            port;           // Physical port number
-    BYTE            current;        // Current in 2mA units
+    uint8_t            port;           // Physical port number
+    uint8_t            current;        // Current in 2mA units
 } USB_VBUS_POWER_EVENT_DATA;
 
 
@@ -451,7 +456,7 @@ stalled (ie. bit 0 = EP0, bit 1 = EP1, etc.)
  
 *******************************************************************************/
 
-typedef BOOL (*USB_EVENT_HANDLER) ( USB_EVENT event, void *data, unsigned int size );
+typedef bool (*USB_EVENT_HANDLER) ( USB_EVENT event, void *data, unsigned int size );
 
 
 // *****************************************************************************
