@@ -66,7 +66,7 @@
 //  initialization functions for the board.  These defitions are only
 //  required in the stack provided demos.  They are not required in
 //  final application design.
-#define DEMO_BOARD PIC32_USB_STARTER_KIT
+#define DEMO_BOARD PIC32_MACRO_KEYBOARD
 
 //the entire LED function can be removed, because it is specific to the 
 //dev board this project was originally built on
