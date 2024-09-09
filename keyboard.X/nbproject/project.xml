@@ -4,11 +4,13 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>Keyboard</name>
-            <creation-uuid>5f26aacb-6c85-4193-b664-b0fee7c3433d</creation-uuid>
+            <creation-uuid>5134ebb5-bf9c-402f-aa0f-3cabf705183a</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
-            <sourceRootList/>
+            <sourceRootList>
+                <sourceRootElem>.</sourceRootElem>
+            </sourceRootList>
             <confList>
                 <confElem>
                     <name>default</name>

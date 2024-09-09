@@ -4,6 +4,17 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Compiler.h</itemPath>
+      <itemPath>HardwareProfile.h</itemPath>
+      <itemPath>usb.h</itemPath>
+      <itemPath>usb_ch9.h</itemPath>
+      <itemPath>usb_common.h</itemPath>
+      <itemPath>usb_config.h</itemPath>
+      <itemPath>usb_device.h</itemPath>
+      <itemPath>usb_device_local.h</itemPath>
+      <itemPath>usb_function_hid.h</itemPath>
+      <itemPath>usb_hal.h</itemPath>
+      <itemPath>usb_hal_pic32.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -17,9 +28,13 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>newmain.c</itemPath>
+      <itemPath>mouse.c</itemPath>
+      <itemPath>usb_descriptors.c</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="default" type="2">
@@ -41,6 +56,7 @@
       <compileType>
         <linkerTool>
           <linkerLibItems>
+            <linkerLibFileItem>PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a</linkerLibFileItem>
           </linkerLibItems>
         </linkerTool>
         <archiverTool>

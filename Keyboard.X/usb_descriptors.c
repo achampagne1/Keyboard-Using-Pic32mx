@@ -147,8 +147,8 @@ state according to the definition in the USB specification.
 #define __USB_DESCRIPTORS_C
 
 /** INCLUDES *******************************************************/
-#include "./USB/usb.h"
-#include "./USB/usb_function_hid.h"
+#include "usb.h"
+#include "usb_function_hid.h"
 
 /** CONSTANTS ******************************************************/
 

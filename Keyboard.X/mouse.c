@@ -25,9 +25,9 @@
 ********************************************************************/
 
 /** INCLUDES *******************************************************/
-#include "USB/usb.h"
+#include "usb.h"
 #include "HardwareProfile.h"
-#include "USB/usb_function_hid.h"
+#include "usb_function_hid.h"
 
 /** CONFIGURATION **************************************************/
 #ifndef OVERRIDE_CONFIG_BITS
