@@ -151,16 +151,17 @@ state according to the definition in the USB specification.
 #include "usb_function_hid.h"
 
 /** CONSTANTS ******************************************************/
+
 /* Device Descriptor */
 ROM USB_DEVICE_DESCRIPTOR device_dsc=
 {
-    0x12,                   // Size of this descriptor in bytes
-    USB_DESCRIPTOR_DEVICE,  // DEVICE descriptor type
+    0x12,    // Size of this descriptor in bytes
+    USB_DESCRIPTOR_DEVICE,                // DEVICE descriptor type
     0x0200,                 // USB Spec Release Number in BCD format
     0x00,                   // Class Code
     0x00,                   // Subclass code
     0x00,                   // Protocol code
-    USB_EP0_BUFF_SIZE,      // Max packet size for EP0, see usb_config.h
+    USB_EP0_BUFF_SIZE,          // Max packet size for EP0, see usb_config.h
     MY_VID,                 // Vendor ID
     MY_PID,                 // Product ID: Mouse in a circle fw demo
     0x0003,                 // Device release number in BCD format
@@ -190,7 +191,7 @@ ROM uint8_t configDescriptor1[]={
     1,                      // Number of endpoints in this intf
     HID_INTF,               // Class code
     BOOT_INTF_SUBCLASS,     // Subclass code
-    HID_PROTOCOL_KEYBOARD,     // Protocol code
+    HID_PROTOCOL_MOUSE,     // Protocol code
     0,                      // Interface string index
 
     /* HID Class-Specific Descriptor */
@@ -234,7 +235,7 @@ sizeof(sd002),USB_DESCRIPTOR_STRING,
 //Class specific descriptor - HID mouse
 ROM struct{uint8_t report[HID_RPT01_SIZE];}hid_rpt01={
     {0x05, 0x01, /* Usage Page (Generic Desktop)             */
-    0x09, 0x06, /* Usage (Mouse)                            */
+    0x09, 0x02, /* Usage (Mouse)                            */
     0xA1, 0x01, /* Collection (Application)                 */
     0x09, 0x01, /*  Usage (Pointer)                         */
     0xA1, 0x00, /*  Collection (Physical)                   */

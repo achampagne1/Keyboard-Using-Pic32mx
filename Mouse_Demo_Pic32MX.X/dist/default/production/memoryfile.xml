@@ -3,15 +3,15 @@
   <executable name="dist/default/production/Keyboard.X.production.elf">                 
     <memory name="program">                 
       <units>bytes</units>                 
-      <length>263312</length>                 
-      <used>15408</used>                     
-      <free>247904</free>                     
+      <length>132240</length>                 
+      <used>15412</used>                     
+      <free>116828</free>                     
     </memory>                              
     <memory name="data">              
       <units>bytes</units>                 
-      <length>65536</length>                 
+      <length>32768</length>                 
       <used>228</used>                     
-      <free>65308</free>                     
+      <free>32540</free>                     
     </memory>                              
   </executable>                            
 </project>                                 

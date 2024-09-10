@@ -5,105 +5,105 @@ PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
                               build/default/production/mouse.o (USBCheckHIDRequest)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_bootstrap_exception_handler)
+                              C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o (_bootstrap_exception_handler)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_on_reset)
+                              C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o (_on_reset)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_on_bootstrap)
+                              C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o (_on_bootstrap)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_nmi_handler)
+                              C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o (_nmi_handler)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_core.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (__pic32_data_init)
+                              C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o (__pic32_data_init)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_general_exception_context)
+                              C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o (_general_exception_context)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector0.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_0)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_0)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector1.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_1)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_1)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector2.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_2)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_2)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector3.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_3)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_3)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector4.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_4)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_4)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector5.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_5)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_5)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector6.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_6)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_6)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector7.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_7)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_7)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector8.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_8)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_8)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector9.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_9)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_9)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector10.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_10)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_10)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector11.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_11)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_11)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector12.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_12)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_12)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector13.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_13)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_13)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector14.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_14)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_14)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector15.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_15)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_15)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector16.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_16)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_16)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector17.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_17)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_17)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector18.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_18)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_18)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector19.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_19)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_19)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector20.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_20)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_20)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector21.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_21)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_21)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector22.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_22)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_22)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector23.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_23)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_23)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector24.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_24)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_24)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector25.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_25)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_25)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector26.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_26)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_26)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector27.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_27)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_27)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector28.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_28)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_28)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector29.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_29)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_29)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector30.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_30)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_30)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector31.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_31)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_31)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector32.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_32)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_32)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector33.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_33)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_33)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector34.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_34)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_34)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector35.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_35)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_35)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector36.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_36)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_36)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector37.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_37)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_37)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector38.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_38)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_38)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector39.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_39)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_39)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector40.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_40)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_40)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector41.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_41)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_41)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector42.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_42)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_42)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector43.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_43)
+                              C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o (__vector_dispatch_43)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
                               c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o) (_general_exception_handler)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
@@ -165,25 +165,25 @@ Microchip PIC32 Memory-Usage Report
 kseg0 Program-Memory Usage
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
-.text                   0x9d000000         0x3244       12868  App's exec code 
-.text                   0x9d003244          0x24c         588  App's exec code 
-.rodata                 0x9d003490           0xe4         228  Read-only const 
-.text.general_exception 0x9d003574           0xdc         220   
-.text                   0x9d003650           0x7c         124  App's exec code 
-.text.main_entry        0x9d0036cc           0x54          84   
-.text._bootstrap_except 0x9d003720           0x48          72   
-.text._general_exceptio 0x9d003768           0x48          72   
-.vector_default         0x9d0037b0           0x48          72   
-.text                   0x9d0037f8           0x44          68  App's exec code 
-.rodata                 0x9d00383c           0x30          48  Read-only const 
-.dinit                  0x9d00386c           0x30          48   
-.text.memset            0x9d00389c           0x28          40   
+.text                   0x9d000000         0x3248       12872  App's exec code 
+.text                   0x9d003248          0x24c         588  App's exec code 
+.rodata                 0x9d003494           0xe4         228  Read-only const 
+.text.general_exception 0x9d003578           0xdc         220   
+.text                   0x9d003654           0x7c         124  App's exec code 
+.text.main_entry        0x9d0036d0           0x54          84   
+.text._bootstrap_except 0x9d003724           0x48          72   
+.text._general_exceptio 0x9d00376c           0x48          72   
+.vector_default         0x9d0037b4           0x48          72   
+.text                   0x9d0037fc           0x44          68  App's exec code 
+.rodata                 0x9d003840           0x30          48  Read-only const 
+.dinit                  0x9d003870           0x30          48   
+.text.memset            0x9d0038a0           0x28          40   
 .MIPS.abiflags          0x9d0038c8           0x18          24   
 .text                   0x9d0038e0           0x30          48  App's exec code 
 .rodata                 0x9d003910           0x1c          28  Read-only const 
 .text._on_reset         0x9d00392c            0x8           8   
 .text._on_bootstrap     0x9d003934            0x8           8   
-      Total kseg0_program_mem used  :      0x3938       14648  5.7% of 0x3f000
+      Total kseg0_program_mem used  :      0x393c       14652  11.5% of 0x1f000
 
 kseg0 Boot-Memory Usage
 section                    address  length [bytes]      (dec)  Description
@@ -193,51 +193,51 @@ section                    address  length [bytes]      (dec)  Description
 Exception-Memory Usage 
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
-.app_excpt              0x9d03f180           0x10          16  General-Exception 
-.vector_0               0x9d03f200            0x8           8  Interrupt Vector 0 
-.vector_1               0x9d03f220            0x8           8  Interrupt Vector 1 
-.vector_2               0x9d03f240            0x8           8  Interrupt Vector 2 
-.vector_3               0x9d03f260            0x8           8  Interrupt Vector 3 
-.vector_4               0x9d03f280            0x8           8  Interrupt Vector 4 
-.vector_5               0x9d03f2a0            0x8           8  Interrupt Vector 5 
-.vector_6               0x9d03f2c0            0x8           8  Interrupt Vector 6 
-.vector_7               0x9d03f2e0            0x8           8  Interrupt Vector 7 
-.vector_8               0x9d03f300            0x8           8  Interrupt Vector 8 
-.vector_9               0x9d03f320            0x8           8  Interrupt Vector 9 
-.vector_10              0x9d03f340            0x8           8  Interrupt Vector 10 
-.vector_11              0x9d03f360            0x8           8  Interrupt Vector 11 
-.vector_12              0x9d03f380            0x8           8  Interrupt Vector 12 
-.vector_13              0x9d03f3a0            0x8           8  Interrupt Vector 13 
-.vector_14              0x9d03f3c0            0x8           8  Interrupt Vector 14 
-.vector_15              0x9d03f3e0            0x8           8  Interrupt Vector 15 
-.vector_16              0x9d03f400            0x8           8  Interrupt Vector 16 
-.vector_17              0x9d03f420            0x8           8  Interrupt Vector 17 
-.vector_18              0x9d03f440            0x8           8  Interrupt Vector 18 
-.vector_19              0x9d03f460            0x8           8  Interrupt Vector 19 
-.vector_20              0x9d03f480            0x8           8  Interrupt Vector 20 
-.vector_21              0x9d03f4a0            0x8           8  Interrupt Vector 21 
-.vector_22              0x9d03f4c0            0x8           8  Interrupt Vector 22 
-.vector_23              0x9d03f4e0            0x8           8  Interrupt Vector 23 
-.vector_24              0x9d03f500            0x8           8  Interrupt Vector 24 
-.vector_25              0x9d03f520            0x8           8  Interrupt Vector 25 
-.vector_26              0x9d03f540            0x8           8  Interrupt Vector 26 
-.vector_27              0x9d03f560            0x8           8  Interrupt Vector 27 
-.vector_28              0x9d03f580            0x8           8  Interrupt Vector 28 
-.vector_29              0x9d03f5a0            0x8           8  Interrupt Vector 29 
-.vector_30              0x9d03f5c0            0x8           8  Interrupt Vector 30 
-.vector_31              0x9d03f5e0            0x8           8  Interrupt Vector 31 
-.vector_32              0x9d03f600            0x8           8  Interrupt Vector 32 
-.vector_33              0x9d03f620            0x8           8  Interrupt Vector 33 
-.vector_34              0x9d03f640            0x8           8  Interrupt Vector 34 
-.vector_35              0x9d03f660            0x8           8  Interrupt Vector 35 
-.vector_36              0x9d03f680            0x8           8  Interrupt Vector 36 
-.vector_37              0x9d03f6a0            0x8           8  Interrupt Vector 37 
-.vector_38              0x9d03f6c0            0x8           8  Interrupt Vector 38 
-.vector_39              0x9d03f6e0            0x8           8  Interrupt Vector 39 
-.vector_40              0x9d03f700            0x8           8  Interrupt Vector 40 
-.vector_41              0x9d03f720            0x8           8  Interrupt Vector 41 
-.vector_42              0x9d03f740            0x8           8  Interrupt Vector 42 
-.vector_43              0x9d03f760            0x8           8  Interrupt Vector 43 
+.app_excpt              0x9d01f180           0x10          16  General-Exception 
+.vector_0               0x9d01f200            0x8           8  Interrupt Vector 0 
+.vector_1               0x9d01f220            0x8           8  Interrupt Vector 1 
+.vector_2               0x9d01f240            0x8           8  Interrupt Vector 2 
+.vector_3               0x9d01f260            0x8           8  Interrupt Vector 3 
+.vector_4               0x9d01f280            0x8           8  Interrupt Vector 4 
+.vector_5               0x9d01f2a0            0x8           8  Interrupt Vector 5 
+.vector_6               0x9d01f2c0            0x8           8  Interrupt Vector 6 
+.vector_7               0x9d01f2e0            0x8           8  Interrupt Vector 7 
+.vector_8               0x9d01f300            0x8           8  Interrupt Vector 8 
+.vector_9               0x9d01f320            0x8           8  Interrupt Vector 9 
+.vector_10              0x9d01f340            0x8           8  Interrupt Vector 10 
+.vector_11              0x9d01f360            0x8           8  Interrupt Vector 11 
+.vector_12              0x9d01f380            0x8           8  Interrupt Vector 12 
+.vector_13              0x9d01f3a0            0x8           8  Interrupt Vector 13 
+.vector_14              0x9d01f3c0            0x8           8  Interrupt Vector 14 
+.vector_15              0x9d01f3e0            0x8           8  Interrupt Vector 15 
+.vector_16              0x9d01f400            0x8           8  Interrupt Vector 16 
+.vector_17              0x9d01f420            0x8           8  Interrupt Vector 17 
+.vector_18              0x9d01f440            0x8           8  Interrupt Vector 18 
+.vector_19              0x9d01f460            0x8           8  Interrupt Vector 19 
+.vector_20              0x9d01f480            0x8           8  Interrupt Vector 20 
+.vector_21              0x9d01f4a0            0x8           8  Interrupt Vector 21 
+.vector_22              0x9d01f4c0            0x8           8  Interrupt Vector 22 
+.vector_23              0x9d01f4e0            0x8           8  Interrupt Vector 23 
+.vector_24              0x9d01f500            0x8           8  Interrupt Vector 24 
+.vector_25              0x9d01f520            0x8           8  Interrupt Vector 25 
+.vector_26              0x9d01f540            0x8           8  Interrupt Vector 26 
+.vector_27              0x9d01f560            0x8           8  Interrupt Vector 27 
+.vector_28              0x9d01f580            0x8           8  Interrupt Vector 28 
+.vector_29              0x9d01f5a0            0x8           8  Interrupt Vector 29 
+.vector_30              0x9d01f5c0            0x8           8  Interrupt Vector 30 
+.vector_31              0x9d01f5e0            0x8           8  Interrupt Vector 31 
+.vector_32              0x9d01f600            0x8           8  Interrupt Vector 32 
+.vector_33              0x9d01f620            0x8           8  Interrupt Vector 33 
+.vector_34              0x9d01f640            0x8           8  Interrupt Vector 34 
+.vector_35              0x9d01f660            0x8           8  Interrupt Vector 35 
+.vector_36              0x9d01f680            0x8           8  Interrupt Vector 36 
+.vector_37              0x9d01f6a0            0x8           8  Interrupt Vector 37 
+.vector_38              0x9d01f6c0            0x8           8  Interrupt Vector 38 
+.vector_39              0x9d01f6e0            0x8           8  Interrupt Vector 39 
+.vector_40              0x9d01f700            0x8           8  Interrupt Vector 40 
+.vector_41              0x9d01f720            0x8           8  Interrupt Vector 41 
+.vector_42              0x9d01f740            0x8           8  Interrupt Vector 42 
+.vector_43              0x9d01f760            0x8           8  Interrupt Vector 43 
           Total exception_mem used  :       0x170         368  9.0% of 0x1000
 
 kseg1 Boot-Memory Usage
@@ -247,7 +247,7 @@ section                    address  length [bytes]      (dec)  Description
 .bev_excpt              0xbfc00380           0x10          16  BEV-Exception 
          Total kseg1_boot_mem used  :       0x188         392  33.6% of 0x490
         --------------------------------------------------------------------------
-         Total Program Memory used  :      0x3c30       15408  5.9% of 0x40490
+         Total Program Memory used  :      0x3c34       15412  11.7% of 0x20490
         --------------------------------------------------------------------------
 
 
@@ -256,9 +256,9 @@ section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
 .sbss                   0xa0000000           0x88         136  Small uninit data 
 .bss                    0xa0000200           0x5c          92  Uninitialized data 
-         Total kseg0/kseg1 data_mem used  :        0xe4         228  0.3% of 0x10000
+         Total kseg0/kseg1 data_mem used  :        0xe4         228  0.7% of 0x8000
         --------------------------------------------------------------------------
-            Total Data Memory used  :        0xe4         228  0.3% of 0x10000
+            Total Data Memory used  :        0xe4         228  0.7% of 0x8000
         --------------------------------------------------------------------------
 
 
@@ -266,7 +266,7 @@ Dynamic Data-Memory Reservation
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
 heap                    0xa0000260           0x10          16  Reserved for heap 
-stack                   0xa0000288         0xfd68       64872  Reserved for stack 
+stack                   0xa0000288         0x7d68       32104  Reserved for stack 
 
         --------------------------------------------------------------------------
 
@@ -276,9 +276,9 @@ Microchip PIC32 Memory-Usage Report By Module
         text        data         bss         dec         hex    basename                                 filename
 --------------------------------------------------------------------------------
        11512           0         207       11719        2dc7    usb_device.o                         PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a
-        1424           0          14        1438         59e    mouse.o                              build/default/production/mouse.o
+        1428           0          14        1442         5a2    mouse.o                              build/default/production/mouse.o
          588           0           2         590         24e    usb_function_hid.o                   PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a
-         492           0           0         492         1ec    ccKmvJP6.o                           C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+         492           0           0         492         1ec    ccyHFwg1.o                           C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
          228           0           0         228          e4    usb_descriptors.o                    build/default/production/usb_descriptors.o
          220           0           0         220          dc    general-exception.o                  libpic32.a
          144           0           0         144          90    pic32_data_init_core.o               libpic32.a
@@ -339,7 +339,7 @@ Microchip PIC32 Memory-Usage Report By Module
            8           0           0           8           8    vector40.o                           libpic32.a
            0           0           0           5           5    padding                              padding
 --------------------------------------------------------------------------------
-       15464           0         223       15692        3d4c    dist/default/production/Keyboard.X.production.elf
+       15468           0         223       15696        3d50    dist/default/production/Keyboard.X.production.elf
 
 
 Discarded input sections
@@ -358,16 +358,16 @@ Discarded input sections
  .pdr           0x0000000000000000      0x300 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
  .reginfo       0x0000000000000000       0x18 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
  .pdr           0x0000000000000000       0x20 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
- .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
- .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
+ .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc11yLHL.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
- .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc11yLHL.o
+ .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
- .discard       0x0000000000000000       0xb0 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o
+ .discard       0x0000000000000000       0xb0 C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o
  .reginfo       0x0000000000000000       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
@@ -759,8 +759,8 @@ Discarded input sections
 Memory Configuration
 
 Name             Origin             Length             Attributes
-kseg0_program_mem 0x000000009d000000 0x000000000003f000 xr
-exception_mem    0x000000009d03f000 0x0000000000001000
+kseg0_program_mem 0x000000009d000000 0x000000000001f000 xr
+exception_mem    0x000000009d01f000 0x0000000000001000
 debug_exec_mem   0x000000009fc00490 0x0000000000000760
 kseg0_boot_mem   0x000000009fc00490 0x0000000000000000
 kseg1_boot_mem   0x00000000bfc00000 0x0000000000000490
@@ -768,7 +768,7 @@ config3          0x00000000bfc00bf0 0x0000000000000004
 config2          0x00000000bfc00bf4 0x0000000000000004
 config1          0x00000000bfc00bf8 0x0000000000000004
 config0          0x00000000bfc00bfc 0x0000000000000004
-kseg1_data_mem   0x00000000a0000000 0x0000000000010000 w !x
+kseg1_data_mem   0x00000000a0000000 0x0000000000008000 w !x
 sfrs             0x00000000bf800000 0x0000000000100000
 configsfrs       0x00000000bfc00bf0 0x0000000000000010
 *default*        0x0000000000000000 0xffffffffffffffff
@@ -780,9 +780,9 @@ LOAD build/default/production/mouse.o
 LOAD build/default/production/usb_descriptors.o
 LOAD PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a
                 0x0000000000000001                __MPLAB_BUILD = 0x1
-LOAD C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
-LOAD C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
-LOAD C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+LOAD C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
+LOAD C:\Users\18502\AppData\Local\Temp\cc11yLHL.o
+LOAD C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o
 LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
 LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a
 START GROUP
@@ -803,16 +803,16 @@ START GROUP
 LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libmchp_peripheral.a
 END GROUP
 START GROUP
-LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libmchp_peripheral_32MX270F256D.a
+LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libmchp_peripheral_32MX250F128D.a
 END GROUP
                 0x0000000000000001                PROVIDE (_vector_spacing = 0x1)
-                0x000000009d03f000                PROVIDE (_ebase_address = 0x9d03f000)
+                0x000000009d01f000                PROVIDE (_ebase_address = 0x9d01f000)
                 0x00000000bfc00000                _RESET_ADDR = 0xbfc00000
                 0x00000000bfc00380                _BEV_EXCPT_ADDR = 0xbfc00380
                 0x00000000bfc00480                _DBG_EXCPT_ADDR = 0xbfc00480
                 0x000000009fc00490                _DBG_CODE_ADDR = 0x9fc00490
                 0x0000000000000760                _DBG_CODE_SIZE = 0x760
-                0x000000009d03f180                _GEN_EXCPT_ADDR = (_ebase_address + 0x180)
+                0x000000009d01f180                _GEN_EXCPT_ADDR = (_ebase_address + 0x180)
 
 .config_BFC00BF0
  *(.config_BFC00BF0)
@@ -840,16 +840,16 @@ END GROUP
 
 .reset          0x00000000bfc00000      0x178
  *(.reset)
- .reset         0x00000000bfc00000        0x8 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .reset         0x00000000bfc00000        0x8 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
                 0x00000000bfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0x00000000bfc00008      0x170 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+                0x00000000bfc00008      0x170 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
                 0x00000000bfc00008                _startup
 
 .bev_excpt      0x00000000bfc00380       0x10
  *(.bev_handler)
- .bev_handler   0x00000000bfc00380       0x10 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .bev_handler   0x00000000bfc00380       0x10 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
 
 .dbg_excpt      0x00000000bfc00480        0x0
                 0x00000000bfc00480                . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
@@ -857,351 +857,351 @@ END GROUP
 .dbg_code       0x000000009fc00490        0x0
                 0x000000009fc00490                . = (. + DEFINED (_DEBUGGER)?_DBG_CODE_SIZE:0x0)
 
-.app_excpt      0x000000009d03f180       0x10
+.app_excpt      0x000000009d01f180       0x10
  *(.gen_handler)
- .gen_handler   0x000000009d03f180       0x10 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .gen_handler   0x000000009d01f180       0x10 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
 
-.vector_0       0x000000009d03f200        0x8
+.vector_0       0x000000009d01f200        0x8
  *(.vector_0)
- .vector_0      0x000000009d03f200        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector0.o)
-                0x000000009d03f200                __vector_dispatch_0
+ .vector_0      0x000000009d01f200        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector0.o)
+                0x000000009d01f200                __vector_dispatch_0
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_0) <= (_vector_spacing << 0x5))), function at exception vector 0 too large)
 
-.vector_1       0x000000009d03f220        0x8
+.vector_1       0x000000009d01f220        0x8
  *(.vector_1)
- .vector_1      0x000000009d03f220        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector1.o)
-                0x000000009d03f220                __vector_dispatch_1
+ .vector_1      0x000000009d01f220        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector1.o)
+                0x000000009d01f220                __vector_dispatch_1
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_1) <= (_vector_spacing << 0x5))), function at exception vector 1 too large)
 
-.vector_2       0x000000009d03f240        0x8
+.vector_2       0x000000009d01f240        0x8
  *(.vector_2)
- .vector_2      0x000000009d03f240        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector2.o)
-                0x000000009d03f240                __vector_dispatch_2
+ .vector_2      0x000000009d01f240        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector2.o)
+                0x000000009d01f240                __vector_dispatch_2
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_2) <= (_vector_spacing << 0x5))), function at exception vector 2 too large)
 
-.vector_3       0x000000009d03f260        0x8
+.vector_3       0x000000009d01f260        0x8
  *(.vector_3)
- .vector_3      0x000000009d03f260        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector3.o)
-                0x000000009d03f260                __vector_dispatch_3
+ .vector_3      0x000000009d01f260        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector3.o)
+                0x000000009d01f260                __vector_dispatch_3
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_3) <= (_vector_spacing << 0x5))), function at exception vector 3 too large)
 
-.vector_4       0x000000009d03f280        0x8
+.vector_4       0x000000009d01f280        0x8
  *(.vector_4)
- .vector_4      0x000000009d03f280        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector4.o)
-                0x000000009d03f280                __vector_dispatch_4
+ .vector_4      0x000000009d01f280        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector4.o)
+                0x000000009d01f280                __vector_dispatch_4
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_4) <= (_vector_spacing << 0x5))), function at exception vector 4 too large)
 
-.vector_5       0x000000009d03f2a0        0x8
+.vector_5       0x000000009d01f2a0        0x8
  *(.vector_5)
- .vector_5      0x000000009d03f2a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector5.o)
-                0x000000009d03f2a0                __vector_dispatch_5
+ .vector_5      0x000000009d01f2a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector5.o)
+                0x000000009d01f2a0                __vector_dispatch_5
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_5) <= (_vector_spacing << 0x5))), function at exception vector 5 too large)
 
-.vector_6       0x000000009d03f2c0        0x8
+.vector_6       0x000000009d01f2c0        0x8
  *(.vector_6)
- .vector_6      0x000000009d03f2c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector6.o)
-                0x000000009d03f2c0                __vector_dispatch_6
+ .vector_6      0x000000009d01f2c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector6.o)
+                0x000000009d01f2c0                __vector_dispatch_6
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_6) <= (_vector_spacing << 0x5))), function at exception vector 6 too large)
 
-.vector_7       0x000000009d03f2e0        0x8
+.vector_7       0x000000009d01f2e0        0x8
  *(.vector_7)
- .vector_7      0x000000009d03f2e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector7.o)
-                0x000000009d03f2e0                __vector_dispatch_7
+ .vector_7      0x000000009d01f2e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector7.o)
+                0x000000009d01f2e0                __vector_dispatch_7
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_7) <= (_vector_spacing << 0x5))), function at exception vector 7 too large)
 
-.vector_8       0x000000009d03f300        0x8
+.vector_8       0x000000009d01f300        0x8
  *(.vector_8)
- .vector_8      0x000000009d03f300        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector8.o)
-                0x000000009d03f300                __vector_dispatch_8
+ .vector_8      0x000000009d01f300        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector8.o)
+                0x000000009d01f300                __vector_dispatch_8
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_8) <= (_vector_spacing << 0x5))), function at exception vector 8 too large)
 
-.vector_9       0x000000009d03f320        0x8
+.vector_9       0x000000009d01f320        0x8
  *(.vector_9)
- .vector_9      0x000000009d03f320        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector9.o)
-                0x000000009d03f320                __vector_dispatch_9
+ .vector_9      0x000000009d01f320        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector9.o)
+                0x000000009d01f320                __vector_dispatch_9
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_9) <= (_vector_spacing << 0x5))), function at exception vector 9 too large)
 
-.vector_10      0x000000009d03f340        0x8
+.vector_10      0x000000009d01f340        0x8
  *(.vector_10)
- .vector_10     0x000000009d03f340        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector10.o)
-                0x000000009d03f340                __vector_dispatch_10
+ .vector_10     0x000000009d01f340        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector10.o)
+                0x000000009d01f340                __vector_dispatch_10
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_10) <= (_vector_spacing << 0x5))), function at exception vector 10 too large)
 
-.vector_11      0x000000009d03f360        0x8
+.vector_11      0x000000009d01f360        0x8
  *(.vector_11)
- .vector_11     0x000000009d03f360        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector11.o)
-                0x000000009d03f360                __vector_dispatch_11
+ .vector_11     0x000000009d01f360        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector11.o)
+                0x000000009d01f360                __vector_dispatch_11
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_11) <= (_vector_spacing << 0x5))), function at exception vector 11 too large)
 
-.vector_12      0x000000009d03f380        0x8
+.vector_12      0x000000009d01f380        0x8
  *(.vector_12)
- .vector_12     0x000000009d03f380        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector12.o)
-                0x000000009d03f380                __vector_dispatch_12
+ .vector_12     0x000000009d01f380        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector12.o)
+                0x000000009d01f380                __vector_dispatch_12
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_12) <= (_vector_spacing << 0x5))), function at exception vector 12 too large)
 
-.vector_13      0x000000009d03f3a0        0x8
+.vector_13      0x000000009d01f3a0        0x8
  *(.vector_13)
- .vector_13     0x000000009d03f3a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector13.o)
-                0x000000009d03f3a0                __vector_dispatch_13
+ .vector_13     0x000000009d01f3a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector13.o)
+                0x000000009d01f3a0                __vector_dispatch_13
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_13) <= (_vector_spacing << 0x5))), function at exception vector 13 too large)
 
-.vector_14      0x000000009d03f3c0        0x8
+.vector_14      0x000000009d01f3c0        0x8
  *(.vector_14)
- .vector_14     0x000000009d03f3c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector14.o)
-                0x000000009d03f3c0                __vector_dispatch_14
+ .vector_14     0x000000009d01f3c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector14.o)
+                0x000000009d01f3c0                __vector_dispatch_14
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_14) <= (_vector_spacing << 0x5))), function at exception vector 14 too large)
 
-.vector_15      0x000000009d03f3e0        0x8
+.vector_15      0x000000009d01f3e0        0x8
  *(.vector_15)
- .vector_15     0x000000009d03f3e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector15.o)
-                0x000000009d03f3e0                __vector_dispatch_15
+ .vector_15     0x000000009d01f3e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector15.o)
+                0x000000009d01f3e0                __vector_dispatch_15
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_15) <= (_vector_spacing << 0x5))), function at exception vector 15 too large)
 
-.vector_16      0x000000009d03f400        0x8
+.vector_16      0x000000009d01f400        0x8
  *(.vector_16)
- .vector_16     0x000000009d03f400        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector16.o)
-                0x000000009d03f400                __vector_dispatch_16
+ .vector_16     0x000000009d01f400        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector16.o)
+                0x000000009d01f400                __vector_dispatch_16
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_16) <= (_vector_spacing << 0x5))), function at exception vector 16 too large)
 
-.vector_17      0x000000009d03f420        0x8
+.vector_17      0x000000009d01f420        0x8
  *(.vector_17)
- .vector_17     0x000000009d03f420        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector17.o)
-                0x000000009d03f420                __vector_dispatch_17
+ .vector_17     0x000000009d01f420        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector17.o)
+                0x000000009d01f420                __vector_dispatch_17
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_17) <= (_vector_spacing << 0x5))), function at exception vector 17 too large)
 
-.vector_18      0x000000009d03f440        0x8
+.vector_18      0x000000009d01f440        0x8
  *(.vector_18)
- .vector_18     0x000000009d03f440        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector18.o)
-                0x000000009d03f440                __vector_dispatch_18
+ .vector_18     0x000000009d01f440        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector18.o)
+                0x000000009d01f440                __vector_dispatch_18
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_18) <= (_vector_spacing << 0x5))), function at exception vector 18 too large)
 
-.vector_19      0x000000009d03f460        0x8
+.vector_19      0x000000009d01f460        0x8
  *(.vector_19)
- .vector_19     0x000000009d03f460        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector19.o)
-                0x000000009d03f460                __vector_dispatch_19
+ .vector_19     0x000000009d01f460        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector19.o)
+                0x000000009d01f460                __vector_dispatch_19
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_19) <= (_vector_spacing << 0x5))), function at exception vector 19 too large)
 
-.vector_20      0x000000009d03f480        0x8
+.vector_20      0x000000009d01f480        0x8
  *(.vector_20)
- .vector_20     0x000000009d03f480        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector20.o)
-                0x000000009d03f480                __vector_dispatch_20
+ .vector_20     0x000000009d01f480        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector20.o)
+                0x000000009d01f480                __vector_dispatch_20
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_20) <= (_vector_spacing << 0x5))), function at exception vector 20 too large)
 
-.vector_21      0x000000009d03f4a0        0x8
+.vector_21      0x000000009d01f4a0        0x8
  *(.vector_21)
- .vector_21     0x000000009d03f4a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector21.o)
-                0x000000009d03f4a0                __vector_dispatch_21
+ .vector_21     0x000000009d01f4a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector21.o)
+                0x000000009d01f4a0                __vector_dispatch_21
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_21) <= (_vector_spacing << 0x5))), function at exception vector 21 too large)
 
-.vector_22      0x000000009d03f4c0        0x8
+.vector_22      0x000000009d01f4c0        0x8
  *(.vector_22)
- .vector_22     0x000000009d03f4c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector22.o)
-                0x000000009d03f4c0                __vector_dispatch_22
+ .vector_22     0x000000009d01f4c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector22.o)
+                0x000000009d01f4c0                __vector_dispatch_22
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_22) <= (_vector_spacing << 0x5))), function at exception vector 22 too large)
 
-.vector_23      0x000000009d03f4e0        0x8
+.vector_23      0x000000009d01f4e0        0x8
  *(.vector_23)
- .vector_23     0x000000009d03f4e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector23.o)
-                0x000000009d03f4e0                __vector_dispatch_23
+ .vector_23     0x000000009d01f4e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector23.o)
+                0x000000009d01f4e0                __vector_dispatch_23
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_23) <= (_vector_spacing << 0x5))), function at exception vector 23 too large)
 
-.vector_24      0x000000009d03f500        0x8
+.vector_24      0x000000009d01f500        0x8
  *(.vector_24)
- .vector_24     0x000000009d03f500        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector24.o)
-                0x000000009d03f500                __vector_dispatch_24
+ .vector_24     0x000000009d01f500        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector24.o)
+                0x000000009d01f500                __vector_dispatch_24
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_24) <= (_vector_spacing << 0x5))), function at exception vector 24 too large)
 
-.vector_25      0x000000009d03f520        0x8
+.vector_25      0x000000009d01f520        0x8
  *(.vector_25)
- .vector_25     0x000000009d03f520        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector25.o)
-                0x000000009d03f520                __vector_dispatch_25
+ .vector_25     0x000000009d01f520        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector25.o)
+                0x000000009d01f520                __vector_dispatch_25
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_25) <= (_vector_spacing << 0x5))), function at exception vector 25 too large)
 
-.vector_26      0x000000009d03f540        0x8
+.vector_26      0x000000009d01f540        0x8
  *(.vector_26)
- .vector_26     0x000000009d03f540        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector26.o)
-                0x000000009d03f540                __vector_dispatch_26
+ .vector_26     0x000000009d01f540        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector26.o)
+                0x000000009d01f540                __vector_dispatch_26
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_26) <= (_vector_spacing << 0x5))), function at exception vector 26 too large)
 
-.vector_27      0x000000009d03f560        0x8
+.vector_27      0x000000009d01f560        0x8
  *(.vector_27)
- .vector_27     0x000000009d03f560        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector27.o)
-                0x000000009d03f560                __vector_dispatch_27
+ .vector_27     0x000000009d01f560        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector27.o)
+                0x000000009d01f560                __vector_dispatch_27
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_27) <= (_vector_spacing << 0x5))), function at exception vector 27 too large)
 
-.vector_28      0x000000009d03f580        0x8
+.vector_28      0x000000009d01f580        0x8
  *(.vector_28)
- .vector_28     0x000000009d03f580        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector28.o)
-                0x000000009d03f580                __vector_dispatch_28
+ .vector_28     0x000000009d01f580        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector28.o)
+                0x000000009d01f580                __vector_dispatch_28
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_28) <= (_vector_spacing << 0x5))), function at exception vector 28 too large)
 
-.vector_29      0x000000009d03f5a0        0x8
+.vector_29      0x000000009d01f5a0        0x8
  *(.vector_29)
- .vector_29     0x000000009d03f5a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector29.o)
-                0x000000009d03f5a0                __vector_dispatch_29
+ .vector_29     0x000000009d01f5a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector29.o)
+                0x000000009d01f5a0                __vector_dispatch_29
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_29) <= (_vector_spacing << 0x5))), function at exception vector 29 too large)
 
-.vector_30      0x000000009d03f5c0        0x8
+.vector_30      0x000000009d01f5c0        0x8
  *(.vector_30)
- .vector_30     0x000000009d03f5c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector30.o)
-                0x000000009d03f5c0                __vector_dispatch_30
+ .vector_30     0x000000009d01f5c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector30.o)
+                0x000000009d01f5c0                __vector_dispatch_30
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_30) <= (_vector_spacing << 0x5))), function at exception vector 30 too large)
 
-.vector_31      0x000000009d03f5e0        0x8
+.vector_31      0x000000009d01f5e0        0x8
  *(.vector_31)
- .vector_31     0x000000009d03f5e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector31.o)
-                0x000000009d03f5e0                __vector_dispatch_31
+ .vector_31     0x000000009d01f5e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector31.o)
+                0x000000009d01f5e0                __vector_dispatch_31
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_31) <= (_vector_spacing << 0x5))), function at exception vector 31 too large)
 
-.vector_32      0x000000009d03f600        0x8
+.vector_32      0x000000009d01f600        0x8
  *(.vector_32)
- .vector_32     0x000000009d03f600        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector32.o)
-                0x000000009d03f600                __vector_dispatch_32
+ .vector_32     0x000000009d01f600        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector32.o)
+                0x000000009d01f600                __vector_dispatch_32
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_32) <= (_vector_spacing << 0x5))), function at exception vector 32 too large)
 
-.vector_33      0x000000009d03f620        0x8
+.vector_33      0x000000009d01f620        0x8
  *(.vector_33)
- .vector_33     0x000000009d03f620        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector33.o)
-                0x000000009d03f620                __vector_dispatch_33
+ .vector_33     0x000000009d01f620        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector33.o)
+                0x000000009d01f620                __vector_dispatch_33
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_33) <= (_vector_spacing << 0x5))), function at exception vector 33 too large)
 
-.vector_34      0x000000009d03f640        0x8
+.vector_34      0x000000009d01f640        0x8
  *(.vector_34)
- .vector_34     0x000000009d03f640        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector34.o)
-                0x000000009d03f640                __vector_dispatch_34
+ .vector_34     0x000000009d01f640        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector34.o)
+                0x000000009d01f640                __vector_dispatch_34
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_34) <= (_vector_spacing << 0x5))), function at exception vector 34 too large)
 
-.vector_35      0x000000009d03f660        0x8
+.vector_35      0x000000009d01f660        0x8
  *(.vector_35)
- .vector_35     0x000000009d03f660        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector35.o)
-                0x000000009d03f660                __vector_dispatch_35
+ .vector_35     0x000000009d01f660        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector35.o)
+                0x000000009d01f660                __vector_dispatch_35
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_35) <= (_vector_spacing << 0x5))), function at exception vector 35 too large)
 
-.vector_36      0x000000009d03f680        0x8
+.vector_36      0x000000009d01f680        0x8
  *(.vector_36)
- .vector_36     0x000000009d03f680        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector36.o)
-                0x000000009d03f680                __vector_dispatch_36
+ .vector_36     0x000000009d01f680        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector36.o)
+                0x000000009d01f680                __vector_dispatch_36
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_36) <= (_vector_spacing << 0x5))), function at exception vector 36 too large)
 
-.vector_37      0x000000009d03f6a0        0x8
+.vector_37      0x000000009d01f6a0        0x8
  *(.vector_37)
- .vector_37     0x000000009d03f6a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector37.o)
-                0x000000009d03f6a0                __vector_dispatch_37
+ .vector_37     0x000000009d01f6a0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector37.o)
+                0x000000009d01f6a0                __vector_dispatch_37
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_37) <= (_vector_spacing << 0x5))), function at exception vector 37 too large)
 
-.vector_38      0x000000009d03f6c0        0x8
+.vector_38      0x000000009d01f6c0        0x8
  *(.vector_38)
- .vector_38     0x000000009d03f6c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector38.o)
-                0x000000009d03f6c0                __vector_dispatch_38
+ .vector_38     0x000000009d01f6c0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector38.o)
+                0x000000009d01f6c0                __vector_dispatch_38
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_38) <= (_vector_spacing << 0x5))), function at exception vector 38 too large)
 
-.vector_39      0x000000009d03f6e0        0x8
+.vector_39      0x000000009d01f6e0        0x8
  *(.vector_39)
- .vector_39     0x000000009d03f6e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector39.o)
-                0x000000009d03f6e0                __vector_dispatch_39
+ .vector_39     0x000000009d01f6e0        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector39.o)
+                0x000000009d01f6e0                __vector_dispatch_39
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_39) <= (_vector_spacing << 0x5))), function at exception vector 39 too large)
 
-.vector_40      0x000000009d03f700        0x8
+.vector_40      0x000000009d01f700        0x8
  *(.vector_40)
- .vector_40     0x000000009d03f700        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector40.o)
-                0x000000009d03f700                __vector_dispatch_40
+ .vector_40     0x000000009d01f700        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector40.o)
+                0x000000009d01f700                __vector_dispatch_40
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_40) <= (_vector_spacing << 0x5))), function at exception vector 40 too large)
 
-.vector_41      0x000000009d03f720        0x8
+.vector_41      0x000000009d01f720        0x8
  *(.vector_41)
- .vector_41     0x000000009d03f720        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector41.o)
-                0x000000009d03f720                __vector_dispatch_41
+ .vector_41     0x000000009d01f720        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector41.o)
+                0x000000009d01f720                __vector_dispatch_41
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_41) <= (_vector_spacing << 0x5))), function at exception vector 41 too large)
 
-.vector_42      0x000000009d03f740        0x8
+.vector_42      0x000000009d01f740        0x8
  *(.vector_42)
- .vector_42     0x000000009d03f740        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector42.o)
-                0x000000009d03f740                __vector_dispatch_42
+ .vector_42     0x000000009d01f740        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector42.o)
+                0x000000009d01f740                __vector_dispatch_42
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_42) <= (_vector_spacing << 0x5))), function at exception vector 42 too large)
 
-.vector_43      0x000000009d03f760        0x8
+.vector_43      0x000000009d01f760        0x8
  *(.vector_43)
- .vector_43     0x000000009d03f760        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector43.o)
-                0x000000009d03f760                __vector_dispatch_43
+ .vector_43     0x000000009d01f760        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector43.o)
+                0x000000009d01f760                __vector_dispatch_43
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_43) <= (_vector_spacing << 0x5))), function at exception vector 43 too large)
 
-.vector_44      0x000000009d03f780        0x0
+.vector_44      0x000000009d01f780        0x0
  *(.vector_44)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_44) <= (_vector_spacing << 0x5))), function at exception vector 44 too large)
 
-.vector_45      0x000000009d03f7a0        0x0
+.vector_45      0x000000009d01f7a0        0x0
  *(.vector_45)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_45) <= (_vector_spacing << 0x5))), function at exception vector 45 too large)
 
-.vector_46      0x000000009d03f7c0        0x0
+.vector_46      0x000000009d01f7c0        0x0
  *(.vector_46)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_46) <= (_vector_spacing << 0x5))), function at exception vector 46 too large)
 
-.vector_47      0x000000009d03f7e0        0x0
+.vector_47      0x000000009d01f7e0        0x0
  *(.vector_47)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_47) <= (_vector_spacing << 0x5))), function at exception vector 47 too large)
 
-.vector_48      0x000000009d03f800        0x0
+.vector_48      0x000000009d01f800        0x0
  *(.vector_48)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_48) <= (_vector_spacing << 0x5))), function at exception vector 48 too large)
 
-.vector_49      0x000000009d03f820        0x0
+.vector_49      0x000000009d01f820        0x0
  *(.vector_49)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_49) <= (_vector_spacing << 0x5))), function at exception vector 49 too large)
 
-.vector_50      0x000000009d03f840        0x0
+.vector_50      0x000000009d01f840        0x0
  *(.vector_50)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_50) <= (_vector_spacing << 0x5))), function at exception vector 50 too large)
 
-.vector_51      0x000000009d03f860        0x0
+.vector_51      0x000000009d01f860        0x0
  *(.vector_51)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_51) <= (_vector_spacing << 0x5))), function at exception vector 51 too large)
 
-.vector_52      0x000000009d03f880        0x0
+.vector_52      0x000000009d01f880        0x0
  *(.vector_52)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_52) <= (_vector_spacing << 0x5))), function at exception vector 52 too large)
 
-.vector_53      0x000000009d03f8a0        0x0
+.vector_53      0x000000009d01f8a0        0x0
  *(.vector_53)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_53) <= (_vector_spacing << 0x5))), function at exception vector 53 too large)
 
-.vector_54      0x000000009d03f8c0        0x0
+.vector_54      0x000000009d01f8c0        0x0
  *(.vector_54)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_54) <= (_vector_spacing << 0x5))), function at exception vector 54 too large)
 
-.vector_55      0x000000009d03f8e0        0x0
+.vector_55      0x000000009d01f8e0        0x0
  *(.vector_55)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_55) <= (_vector_spacing << 0x5))), function at exception vector 55 too large)
 
-.vector_56      0x000000009d03f900        0x0
+.vector_56      0x000000009d01f900        0x0
  *(.vector_56)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_56) <= (_vector_spacing << 0x5))), function at exception vector 56 too large)
 
-.vector_57      0x000000009d03f920        0x0
+.vector_57      0x000000009d01f920        0x0
  *(.vector_57)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_57) <= (_vector_spacing << 0x5))), function at exception vector 57 too large)
 
-.vector_58      0x000000009d03f940        0x0
+.vector_58      0x000000009d01f940        0x0
  *(.vector_58)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_58) <= (_vector_spacing << 0x5))), function at exception vector 58 too large)
 
-.vector_59      0x000000009d03f960        0x0
+.vector_59      0x000000009d01f960        0x0
  *(.vector_59)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_59) <= (_vector_spacing << 0x5))), function at exception vector 59 too large)
 
-.vector_60      0x000000009d03f980        0x0
+.vector_60      0x000000009d01f980        0x0
  *(.vector_60)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_60) <= (_vector_spacing << 0x5))), function at exception vector 60 too large)
 
-.vector_61      0x000000009d03f9a0        0x0
+.vector_61      0x000000009d01f9a0        0x0
  *(.vector_61)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_61) <= (_vector_spacing << 0x5))), function at exception vector 61 too large)
 
-.vector_62      0x000000009d03f9c0        0x0
+.vector_62      0x000000009d01f9c0        0x0
  *(.vector_62)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_62) <= (_vector_spacing << 0x5))), function at exception vector 62 too large)
 
-.vector_63      0x000000009d03f9e0        0x0
+.vector_63      0x000000009d01f9e0        0x0
  *(.vector_63)
                 0x0000000000000001                ASSERT (((_vector_spacing == 0x0) || (SIZEOF (.vector_63) <= (_vector_spacing << 0x5))), function at exception vector 63 too large)
 
@@ -1397,8 +1397,8 @@ END GROUP
                 0x00000000a000025c                . = ALIGN (0x4)
                 0x00000000a000025c                _end = .
                 0x00000000a000025c                _bss_end = .
-                0x0000000000010000                _bmxdudba_address = LENGTH (kseg1_data_mem)
-                0x0000000000010000                _bmxdupba_address = LENGTH (kseg1_data_mem)
+                0x0000000000008000                _bmxdudba_address = LENGTH (kseg1_data_mem)
+                0x0000000000008000                _bmxdupba_address = LENGTH (kseg1_data_mem)
 
 /DISCARD/
  *(.pdr)
@@ -1532,47 +1532,47 @@ END GROUP
  .debug_pubnames
                 0x0000000000000337       0x4b PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
 
-.debug_info     0x0000000000000000     0x3a4a
+.debug_info     0x0000000000000000     0x3a4c
  *.elf(.debug_info .gnu.linkonce.wi.*)
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x0000000000000000      0xa82 build/default/production/mouse.o
- .debug_info    0x0000000000000a82      0x45d build/default/production/usb_descriptors.o
- .debug_info    0x0000000000000edf     0x1e3d PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
- .debug_info    0x0000000000002d1c      0xb2e PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
- .debug_info    0x000000000000384a       0x41 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_info    0x000000000000388b       0x3f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_info    0x00000000000038ca       0x3f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_info    0x0000000000003909       0x41 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_info    0x000000000000394a       0x40 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_info    0x000000000000398a       0xc0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
+ .debug_info    0x0000000000000000      0xa84 build/default/production/mouse.o
+ .debug_info    0x0000000000000a84      0x45d build/default/production/usb_descriptors.o
+ .debug_info    0x0000000000000ee1     0x1e3d PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
+ .debug_info    0x0000000000002d1e      0xb2e PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
+ .debug_info    0x000000000000384c       0x41 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x000000000000388d       0x3f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_info    0x00000000000038cc       0x3f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x000000000000390b       0x41 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_info    0x000000000000394c       0x40 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_info    0x000000000000398c       0xc0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
 
-.debug_abbrev   0x0000000000000000      0x8db
+.debug_abbrev   0x0000000000000000      0x8c1
  *.elf(.debug_abbrev)
  *(.debug_abbrev)
- .debug_abbrev  0x0000000000000000      0x266 build/default/production/mouse.o
- .debug_abbrev  0x0000000000000266      0x112 build/default/production/usb_descriptors.o
- .debug_abbrev  0x0000000000000378      0x284 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
- .debug_abbrev  0x00000000000005fc      0x15f PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
- .debug_abbrev  0x000000000000075b       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_abbrev  0x000000000000078c       0x2e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_abbrev  0x00000000000007ba       0x2e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_abbrev  0x00000000000007e8       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_abbrev  0x0000000000000819       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_abbrev  0x000000000000084a       0x91 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
+ .debug_abbrev  0x0000000000000000      0x24c build/default/production/mouse.o
+ .debug_abbrev  0x000000000000024c      0x112 build/default/production/usb_descriptors.o
+ .debug_abbrev  0x000000000000035e      0x284 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
+ .debug_abbrev  0x00000000000005e2      0x15f PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
+ .debug_abbrev  0x0000000000000741       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_abbrev  0x0000000000000772       0x2e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_abbrev  0x00000000000007a0       0x2e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_abbrev  0x00000000000007ce       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_abbrev  0x00000000000007ff       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_abbrev  0x0000000000000830       0x91 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
 
-.debug_line     0x0000000000000000     0x103e
+.debug_line     0x0000000000000000     0x1066
  *.elf(.debug_line)
  *(.debug_line)
- .debug_line    0x0000000000000000      0x2aa build/default/production/mouse.o
- .debug_line    0x00000000000002aa       0xf5 build/default/production/usb_descriptors.o
- .debug_line    0x000000000000039f      0x599 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
- .debug_line    0x0000000000000938      0x239 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
- .debug_line    0x0000000000000b71       0xc9 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_line    0x0000000000000c3a       0xa5 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_line    0x0000000000000cdf       0xa9 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_line    0x0000000000000d88       0xc7 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_line    0x0000000000000e4f       0xc8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_line    0x0000000000000f17      0x127 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
+ .debug_line    0x0000000000000000      0x2d2 build/default/production/mouse.o
+ .debug_line    0x00000000000002d2       0xf5 build/default/production/usb_descriptors.o
+ .debug_line    0x00000000000003c7      0x599 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
+ .debug_line    0x0000000000000960      0x239 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
+ .debug_line    0x0000000000000b99       0xc9 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x0000000000000c62       0xa5 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_line    0x0000000000000d07       0xa9 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x0000000000000db0       0xc7 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_line    0x0000000000000e77       0xc8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_line    0x0000000000000f3f      0x127 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
 
 .debug_frame    0x0000000000000000      0x5d0
  *.elf(.debug_frame)
@@ -1652,11 +1652,11 @@ END GROUP
  .gnu.attributes
                 0x0000000000000020       0x10 build/default/production/usb_descriptors.o
  .gnu.attributes
-                0x0000000000000030       0x10 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+                0x0000000000000030       0x10 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
  .gnu.attributes
-                0x0000000000000040       0x10 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+                0x0000000000000040       0x10 C:\Users\18502\AppData\Local\Temp\cc11yLHL.o
  .gnu.attributes
-                0x0000000000000050       0x10 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+                0x0000000000000050       0x10 C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o
  .gnu.attributes
                 0x0000000000000060       0x10 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
  .gnu.attributes
@@ -1943,13 +1943,13 @@ LOAD stack
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
 
 .data%z56       0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+ .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o
 
 .data%z57       0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+ .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc11yLHL.o
 
 .data%z58       0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
 
 .data%z59       0x0000000000000000        0x0
  .data          0x0000000000000000        0x0 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
@@ -2132,13 +2132,13 @@ LOAD stack
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
 
 .bss%z119       0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+ .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o
 
 .bss%z120       0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+ .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc11yLHL.o
 
 .bss%z121       0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
 
 .bss%z122       0x0000000000000000        0x0
  .bss           0x0000000000000000        0x0 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
@@ -2161,7 +2161,7 @@ LOAD stack
                 0x00000000bfc00480       0x2c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\debug-exception-return.o
                 0x00000000bfc00480                __DbgExecReturn
 
-.text           0x000000009d000000     0x3244
+.text           0x000000009d000000     0x3248
  .text          0x000000009d000000     0x2cc8 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
                 0x000000009d000000                USBDeviceInit
                 0x000000009d00032c                USBDeviceTasks
@@ -2171,87 +2171,87 @@ LOAD stack
                 0x000000009d00268c                USBStallEndpoint
                 0x000000009d002868                USBTransferOnePacket
                 0x000000009d002aac                USBCancelIO
- .text          0x000000009d002cc8      0x57c build/default/production/mouse.o
+ .text          0x000000009d002cc8      0x580 build/default/production/mouse.o
                 0x000000009d002cc8                main
                 0x000000009d002d4c                UserInit
-                0x000000009d002dc8                ProcessIO
-                0x000000009d002e30                Emulate_Mouse
-                0x000000009d002f5c                USBCBSuspend
-                0x000000009d002f80                USBCBWakeFromSuspend
-                0x000000009d002fa4                USBCB_SOF_Handler
-                0x000000009d002fc8                USBCBErrorHandler
-                0x000000009d002fec                USBCBCheckOtherReq
-                0x000000009d003020                USBCBStdSetDscHandler
-                0x000000009d003044                USBCBInitEP
-                0x000000009d003080                USBCBSendResume
-                0x000000009d0030ec                USER_USB_CALLBACK_EVENT_HANDLER
+                0x000000009d002dcc                ProcessIO
+                0x000000009d002e34                Emulate_Mouse
+                0x000000009d002f60                USBCBSuspend
+                0x000000009d002f84                USBCBWakeFromSuspend
+                0x000000009d002fa8                USBCB_SOF_Handler
+                0x000000009d002fcc                USBCBErrorHandler
+                0x000000009d002ff0                USBCBCheckOtherReq
+                0x000000009d003024                USBCBStdSetDscHandler
+                0x000000009d003048                USBCBInitEP
+                0x000000009d003084                USBCBSendResume
+                0x000000009d0030f0                USER_USB_CALLBACK_EVENT_HANDLER
 
-.text           0x000000009d003244      0x24c
- .text          0x000000009d003244      0x24c PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
-                0x000000009d003244                USBCheckHIDRequest
+.text           0x000000009d003248      0x24c
+ .text          0x000000009d003248      0x24c PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
+                0x000000009d003248                USBCheckHIDRequest
 
-.rodata         0x000000009d003490       0xe4
- .rodata        0x000000009d003490       0xe4 build/default/production/usb_descriptors.o
-                0x000000009d003490                device_dsc
-                0x000000009d0034a4                configDescriptor1
-                0x000000009d0034c8                sd000
-                0x000000009d0034cc                sd001
-                0x000000009d003500                sd002
-                0x000000009d003530                hid_rpt01
-                0x000000009d003564                USB_CD_Ptr
-                0x000000009d003568                USB_SD_Ptr
+.rodata         0x000000009d003494       0xe4
+ .rodata        0x000000009d003494       0xe4 build/default/production/usb_descriptors.o
+                0x000000009d003494                device_dsc
+                0x000000009d0034a8                configDescriptor1
+                0x000000009d0034cc                sd000
+                0x000000009d0034d0                sd001
+                0x000000009d003504                sd002
+                0x000000009d003534                hid_rpt01
+                0x000000009d003568                USB_CD_Ptr
+                0x000000009d00356c                USB_SD_Ptr
 
 .text.general_exception
-                0x000000009d003574       0xdc
+                0x000000009d003578       0xdc
  .text.general_exception
-                0x000000009d003574       0xdc c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o)
-                0x000000009d003574                _general_exception_context
+                0x000000009d003578       0xdc c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o)
+                0x000000009d003578                _general_exception_context
 
-.text           0x000000009d003650       0x7c
- .text          0x000000009d003650       0x7c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_core.o)
-                0x000000009d003650                __dinit_copy_val_data
-                0x000000009d003650                __dinit_copy_emb
-                0x000000009d003650                __dinit_decompress
-                0x000000009d003650                __dinit_copy
-                0x000000009d003658                __pic32_data_init
+.text           0x000000009d003654       0x7c
+ .text          0x000000009d003654       0x7c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_core.o)
+                0x000000009d003654                __dinit_copy_val_data
+                0x000000009d003654                __dinit_copy_emb
+                0x000000009d003654                __dinit_decompress
+                0x000000009d003654                __dinit_copy
+                0x000000009d00365c                __pic32_data_init
 
 .text.main_entry
-                0x000000009d0036cc       0x54
+                0x000000009d0036d0       0x54
  .text.main_entry
-                0x000000009d0036cc       0x54 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
-                0x000000009d003700                __crt0_exit
+                0x000000009d0036d0       0x54 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
+                0x000000009d003704                __crt0_exit
 
 .text._bootstrap_exception_handler
-                0x000000009d003720       0x48
+                0x000000009d003724       0x48
  .text._bootstrap_exception_handler
-                0x000000009d003720       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                0x000000009d003720                _bootstrap_exception_handler
+                0x000000009d003724       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+                0x000000009d003724                _bootstrap_exception_handler
 
 .text._general_exception_handler
-                0x000000009d003768       0x48
+                0x000000009d00376c       0x48
  .text._general_exception_handler
-                0x000000009d003768       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
-                0x000000009d003768                _general_exception_handler
+                0x000000009d00376c       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+                0x000000009d00376c                _general_exception_handler
 
 .vector_default
-                0x000000009d0037b0       0x48
+                0x000000009d0037b4       0x48
  .vector_default
-                0x000000009d0037b0       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
-                0x000000009d0037b0                _DefaultInterrupt
+                0x000000009d0037b4       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+                0x000000009d0037b4                _DefaultInterrupt
 
-.text           0x000000009d0037f8       0x44
- .text          0x000000009d0037f8       0x44 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
-                0x000000009d0037f8                __pic32_software_reset
+.text           0x000000009d0037fc       0x44
+ .text          0x000000009d0037fc       0x44 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
+                0x000000009d0037fc                __pic32_software_reset
 
-.rodata         0x000000009d00383c       0x30
- .rodata        0x000000009d00383c       0x30 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
+.rodata         0x000000009d003840       0x30
+ .rodata        0x000000009d003840       0x30 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
 
-.dinit          0x000000009d00386c       0x30
- .dinit         0x000000009d00386c       0x30 data_init
+.dinit          0x000000009d003870       0x30
+ .dinit         0x000000009d003870       0x30 data_init
 
-.text.memset    0x000000009d00389c       0x28
- .text.memset   0x000000009d00389c       0x28 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
-                0x000000009d00389c                memset
+.text.memset    0x000000009d0038a0       0x28
+ .text.memset   0x000000009d0038a0       0x28 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
+                0x000000009d0038a0                memset
 
 .MIPS.abiflags  0x000000009d0038c8       0x18
  .MIPS.abiflags
@@ -2435,13 +2435,13 @@ LOAD stack
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
 
 .text%z178      0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+ .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc6j1j9G.o
 
 .text%z179      0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+ .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc11yLHL.o
 
 .text%z180      0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccyHFwg1.o
 
 .text%z181      0x0000000000000000        0x0
  .text          0x0000000000000000        0x0 build/default/production/usb_descriptors.o
