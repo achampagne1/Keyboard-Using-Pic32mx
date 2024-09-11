@@ -2,6 +2,7 @@
 #include "usb.h"
 #include "HardwareProfile.h"
 #include "usb_function_hid.h"
+#include <stdio.h>
 
 /** CONFIGURATION **************************************************/
 #ifndef OVERRIDE_CONFIG_BITS
@@ -66,8 +67,10 @@ int main(void)
         USBDeviceTasks();
         #endif
 
-        ProcessIO();        
-
+        //ProcessIO();        
+        //code to send 'a' key
+        uint8_t report[8] = { 0x00, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00 }; // Press 'A'
+        HIDTxPacket(HID_EP, report, 8);
     }
 
 }
@@ -163,7 +166,8 @@ void Emulate_Mouse(void)
         hid_report_in[2] = buffer[2];
      
         //Send the 3 byte packet over USB to the host.
-        lastTransmission = HIDTxPacket(HID_EP, (uint8_t*)hid_report_in, 0x03);
+        uint8_t report[8] = { 0x00, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00 }; // Press 'A'
+        HIDTxPacket(HID_EP, report, 8);
 
         //increment the counter of when to change the data sent
         movement_length++;

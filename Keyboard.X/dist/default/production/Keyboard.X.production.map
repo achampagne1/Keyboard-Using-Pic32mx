@@ -5,105 +5,105 @@ PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
                               build/default/production/mouse.o (USBCheckHIDRequest)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_bootstrap_exception_handler)
+                              C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o (_bootstrap_exception_handler)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_on_reset)
+                              C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o (_on_reset)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_on_bootstrap)
+                              C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o (_on_bootstrap)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_nmi_handler)
+                              C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o (_nmi_handler)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_core.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (__pic32_data_init)
+                              C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o (__pic32_data_init)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o)
-                              C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o (_general_exception_context)
+                              C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o (_general_exception_context)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector0.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_0)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_0)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector1.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_1)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_1)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector2.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_2)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_2)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector3.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_3)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_3)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector4.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_4)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_4)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector5.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_5)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_5)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector6.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_6)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_6)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector7.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_7)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_7)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector8.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_8)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_8)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector9.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_9)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_9)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector10.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_10)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_10)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector11.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_11)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_11)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector12.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_12)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_12)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector13.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_13)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_13)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector14.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_14)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_14)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector15.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_15)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_15)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector16.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_16)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_16)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector17.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_17)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_17)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector18.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_18)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_18)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector19.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_19)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_19)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector20.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_20)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_20)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector21.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_21)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_21)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector22.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_22)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_22)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector23.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_23)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_23)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector24.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_24)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_24)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector25.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_25)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_25)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector26.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_26)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_26)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector27.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_27)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_27)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector28.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_28)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_28)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector29.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_29)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_29)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector30.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_30)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_30)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector31.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_31)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_31)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector32.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_32)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_32)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector33.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_33)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_33)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector34.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_34)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_34)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector35.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_35)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_35)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector36.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_36)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_36)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector37.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_37)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_37)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector38.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_38)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_38)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector39.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_39)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_39)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector40.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_40)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_40)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector41.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_41)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_41)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector42.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_42)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_42)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(vector43.o)
-                              C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o (__vector_dispatch_43)
+                              C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o (__vector_dispatch_43)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
                               c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o) (_general_exception_handler)
 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
@@ -165,25 +165,25 @@ Microchip PIC32 Memory-Usage Report
 kseg0 Program-Memory Usage
 section                    address  length [bytes]      (dec)  Description
 -------                 ----------  -------------------------  -----------
-.text                   0x9d000000         0x3244       12868  App's exec code 
-.text                   0x9d003244          0x24c         588  App's exec code 
-.rodata                 0x9d003490           0xe4         228  Read-only const 
-.text.general_exception 0x9d003574           0xdc         220   
-.text                   0x9d003650           0x7c         124  App's exec code 
-.text.main_entry        0x9d0036cc           0x54          84   
-.text._bootstrap_except 0x9d003720           0x48          72   
-.text._general_exceptio 0x9d003768           0x48          72   
-.vector_default         0x9d0037b0           0x48          72   
-.text                   0x9d0037f8           0x44          68  App's exec code 
-.rodata                 0x9d00383c           0x30          48  Read-only const 
-.dinit                  0x9d00386c           0x30          48   
-.text.memset            0x9d00389c           0x28          40   
-.MIPS.abiflags          0x9d0038c8           0x18          24   
-.text                   0x9d0038e0           0x30          48  App's exec code 
-.rodata                 0x9d003910           0x1c          28  Read-only const 
-.text._on_reset         0x9d00392c            0x8           8   
-.text._on_bootstrap     0x9d003934            0x8           8   
-      Total kseg0_program_mem used  :      0x3938       14648  5.7% of 0x3f000
+.text                   0x9d000000         0x32a0       12960  App's exec code 
+.text                   0x9d0032a0          0x24c         588  App's exec code 
+.text.general_exception 0x9d0034ec           0xdc         220   
+.rodata                 0x9d0035c8           0xc0         192  Read-only const 
+.text                   0x9d003688           0x7c         124  App's exec code 
+.text.main_entry        0x9d003704           0x54          84   
+.text._bootstrap_except 0x9d003758           0x48          72   
+.text._general_exceptio 0x9d0037a0           0x48          72   
+.vector_default         0x9d0037e8           0x48          72   
+.text                   0x9d003830           0x44          68  App's exec code 
+.rodata                 0x9d003874           0x30          48  Read-only const 
+.dinit                  0x9d0038a4           0x30          48   
+.text.memset            0x9d0038d4           0x28          40   
+.MIPS.abiflags          0x9d003900           0x18          24   
+.text                   0x9d003918           0x30          48  App's exec code 
+.rodata                 0x9d003948           0x1c          28  Read-only const 
+.text._on_reset         0x9d003964            0x8           8   
+.text._on_bootstrap     0x9d00396c            0x8           8   
+      Total kseg0_program_mem used  :      0x3970       14704  5.7% of 0x3f000
 
 kseg0 Boot-Memory Usage
 section                    address  length [bytes]      (dec)  Description
@@ -247,7 +247,7 @@ section                    address  length [bytes]      (dec)  Description
 .bev_excpt              0xbfc00380           0x10          16  BEV-Exception 
          Total kseg1_boot_mem used  :       0x188         392  33.6% of 0x490
         --------------------------------------------------------------------------
-         Total Program Memory used  :      0x3c30       15408  5.9% of 0x40490
+         Total Program Memory used  :      0x3c68       15464  5.9% of 0x40490
         --------------------------------------------------------------------------
 
 
@@ -276,11 +276,11 @@ Microchip PIC32 Memory-Usage Report By Module
         text        data         bss         dec         hex    basename                                 filename
 --------------------------------------------------------------------------------
        11512           0         207       11719        2dc7    usb_device.o                         PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a
-        1424           0          14        1438         59e    mouse.o                              build/default/production/mouse.o
+        1516           0          14        1530         5fa    mouse.o                              build/default/production/mouse.o
          588           0           2         590         24e    usb_function_hid.o                   PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a
-         492           0           0         492         1ec    ccKmvJP6.o                           C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
-         228           0           0         228          e4    usb_descriptors.o                    build/default/production/usb_descriptors.o
+         492           0           0         492         1ec    cceuwcZ9.o                           C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
          220           0           0         220          dc    general-exception.o                  libpic32.a
+         192           0           0         192          c0    usb_descriptors.o                    build/default/production/usb_descriptors.o
          144           0           0         144          90    pic32_data_init_core.o               libpic32.a
           72           0           0          72          48    default-bootstrap-exception-handler.olibpic32.a
           72           0           0          72          48    default-general-exception-handler.o  libpic32.a
@@ -339,7 +339,7 @@ Microchip PIC32 Memory-Usage Report By Module
            8           0           0           8           8    vector40.o                           libpic32.a
            0           0           0           5           5    padding                              padding
 --------------------------------------------------------------------------------
-       15464           0         223       15692        3d4c    dist/default/production/Keyboard.X.production.elf
+       15520           0         223       15748        3d84    dist/default/production/Keyboard.X.production.elf
 
 
 Discarded input sections
@@ -358,16 +358,16 @@ Discarded input sections
  .pdr           0x0000000000000000      0x300 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
  .reginfo       0x0000000000000000       0x18 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
  .pdr           0x0000000000000000       0x20 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
- .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
- .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
+ .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc3gDqbo.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
- .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\cc3gDqbo.o
+ .reginfo       0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
- .discard       0x0000000000000000       0xb0 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+                0x0000000000000000       0x18 C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o
+ .discard       0x0000000000000000       0xb0 C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o
  .reginfo       0x0000000000000000       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
@@ -780,9 +780,9 @@ LOAD build/default/production/mouse.o
 LOAD build/default/production/usb_descriptors.o
 LOAD PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a
                 0x0000000000000001                __MPLAB_BUILD = 0x1
-LOAD C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
-LOAD C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
-LOAD C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+LOAD C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
+LOAD C:\Users\18502\AppData\Local\Temp\cc3gDqbo.o
+LOAD C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o
 LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
 LOAD c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1\libgcc.a
 START GROUP
@@ -840,16 +840,16 @@ END GROUP
 
 .reset          0x00000000bfc00000      0x178
  *(.reset)
- .reset         0x00000000bfc00000        0x8 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .reset         0x00000000bfc00000        0x8 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
                 0x00000000bfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0x00000000bfc00008      0x170 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+                0x00000000bfc00008      0x170 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
                 0x00000000bfc00008                _startup
 
 .bev_excpt      0x00000000bfc00380       0x10
  *(.bev_handler)
- .bev_handler   0x00000000bfc00380       0x10 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .bev_handler   0x00000000bfc00380       0x10 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
 
 .dbg_excpt      0x00000000bfc00480        0x0
                 0x00000000bfc00480                . = (. + DEFINED (_DEBUGGER)?0x8:0x0)
@@ -859,7 +859,7 @@ END GROUP
 
 .app_excpt      0x000000009d03f180       0x10
  *(.gen_handler)
- .gen_handler   0x000000009d03f180       0x10 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .gen_handler   0x000000009d03f180       0x10 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
 
 .vector_0       0x000000009d03f200        0x8
  *(.vector_0)
@@ -1532,47 +1532,47 @@ END GROUP
  .debug_pubnames
                 0x0000000000000337       0x4b PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
 
-.debug_info     0x0000000000000000     0x3a4a
+.debug_info     0x0000000000000000     0x3a90
  *.elf(.debug_info .gnu.linkonce.wi.*)
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x0000000000000000      0xa82 build/default/production/mouse.o
- .debug_info    0x0000000000000a82      0x45d build/default/production/usb_descriptors.o
- .debug_info    0x0000000000000edf     0x1e3d PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
- .debug_info    0x0000000000002d1c      0xb2e PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
- .debug_info    0x000000000000384a       0x41 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_info    0x000000000000388b       0x3f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_info    0x00000000000038ca       0x3f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_info    0x0000000000003909       0x41 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_info    0x000000000000394a       0x40 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_info    0x000000000000398a       0xc0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
+ .debug_info    0x0000000000000000      0xaca build/default/production/mouse.o
+ .debug_info    0x0000000000000aca      0x45b build/default/production/usb_descriptors.o
+ .debug_info    0x0000000000000f25     0x1e3d PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
+ .debug_info    0x0000000000002d62      0xb2e PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
+ .debug_info    0x0000000000003890       0x41 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_info    0x00000000000038d1       0x3f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_info    0x0000000000003910       0x3f c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_info    0x000000000000394f       0x41 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_info    0x0000000000003990       0x40 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_info    0x00000000000039d0       0xc0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
 
-.debug_abbrev   0x0000000000000000      0x8db
+.debug_abbrev   0x0000000000000000      0x8fe
  *.elf(.debug_abbrev)
  *(.debug_abbrev)
- .debug_abbrev  0x0000000000000000      0x266 build/default/production/mouse.o
- .debug_abbrev  0x0000000000000266      0x112 build/default/production/usb_descriptors.o
- .debug_abbrev  0x0000000000000378      0x284 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
- .debug_abbrev  0x00000000000005fc      0x15f PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
- .debug_abbrev  0x000000000000075b       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_abbrev  0x000000000000078c       0x2e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_abbrev  0x00000000000007ba       0x2e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_abbrev  0x00000000000007e8       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_abbrev  0x0000000000000819       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_abbrev  0x000000000000084a       0x91 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
+ .debug_abbrev  0x0000000000000000      0x29c build/default/production/mouse.o
+ .debug_abbrev  0x000000000000029c       0xff build/default/production/usb_descriptors.o
+ .debug_abbrev  0x000000000000039b      0x284 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
+ .debug_abbrev  0x000000000000061f      0x15f PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
+ .debug_abbrev  0x000000000000077e       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_abbrev  0x00000000000007af       0x2e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_abbrev  0x00000000000007dd       0x2e c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_abbrev  0x000000000000080b       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_abbrev  0x000000000000083c       0x31 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_abbrev  0x000000000000086d       0x91 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
 
-.debug_line     0x0000000000000000     0x103e
+.debug_line     0x0000000000000000     0x104c
  *.elf(.debug_line)
  *(.debug_line)
- .debug_line    0x0000000000000000      0x2aa build/default/production/mouse.o
- .debug_line    0x00000000000002aa       0xf5 build/default/production/usb_descriptors.o
- .debug_line    0x000000000000039f      0x599 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
- .debug_line    0x0000000000000938      0x239 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
- .debug_line    0x0000000000000b71       0xc9 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_line    0x0000000000000c3a       0xa5 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_line    0x0000000000000cdf       0xa9 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_line    0x0000000000000d88       0xc7 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_line    0x0000000000000e4f       0xc8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_line    0x0000000000000f17      0x127 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
+ .debug_line    0x0000000000000000      0x2b8 build/default/production/mouse.o
+ .debug_line    0x00000000000002b8       0xf5 build/default/production/usb_descriptors.o
+ .debug_line    0x00000000000003ad      0x599 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
+ .debug_line    0x0000000000000946      0x239 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
+ .debug_line    0x0000000000000b7f       0xc9 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_line    0x0000000000000c48       0xa5 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_line    0x0000000000000ced       0xa9 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x0000000000000d96       0xc7 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_line    0x0000000000000e5d       0xc8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_line    0x0000000000000f25      0x127 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
 
 .debug_frame    0x0000000000000000      0x5d0
  *.elf(.debug_frame)
@@ -1587,19 +1587,19 @@ END GROUP
  .debug_frame   0x0000000000000590       0x20 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
  .debug_frame   0x00000000000005b0       0x20 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
 
-.debug_str      0x0000000000000000     0x22fe
+.debug_str      0x0000000000000000     0x2305
  *.elf(.debug_str)
  *(.debug_str)
- .debug_str     0x0000000000000000      0x91d build/default/production/mouse.o
- .debug_str     0x000000000000091d      0x657 build/default/production/usb_descriptors.o
- .debug_str     0x0000000000000f74       0x1b PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
- .debug_str     0x0000000000000f8f       0x12 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
- .debug_str     0x0000000000000fa1      0x357 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
- .debug_str     0x00000000000012f8      0x331 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
- .debug_str     0x0000000000001629      0x339 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
- .debug_str     0x0000000000001962      0x353 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
- .debug_str     0x0000000000001cb5      0x34b c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
- .debug_str     0x0000000000002000      0x2fe c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
+ .debug_str     0x0000000000000000      0x924 build/default/production/mouse.o
+ .debug_str     0x0000000000000924      0x657 build/default/production/usb_descriptors.o
+ .debug_str     0x0000000000000f7b       0x1b PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
+ .debug_str     0x0000000000000f96       0x12 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
+ .debug_str     0x0000000000000fa8      0x357 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+ .debug_str     0x00000000000012ff      0x331 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+ .debug_str     0x0000000000001630      0x339 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+ .debug_str     0x0000000000001969      0x353 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+ .debug_str     0x0000000000001cbc      0x34b c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+ .debug_str     0x0000000000002007      0x2fe c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
 
 .debug_loc      0x0000000000000000      0x10e
  *.elf(.debug_loc)
@@ -1652,11 +1652,11 @@ END GROUP
  .gnu.attributes
                 0x0000000000000020       0x10 build/default/production/usb_descriptors.o
  .gnu.attributes
-                0x0000000000000030       0x10 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+                0x0000000000000030       0x10 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
  .gnu.attributes
-                0x0000000000000040       0x10 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+                0x0000000000000040       0x10 C:\Users\18502\AppData\Local\Temp\cc3gDqbo.o
  .gnu.attributes
-                0x0000000000000050       0x10 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+                0x0000000000000050       0x10 C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o
  .gnu.attributes
                 0x0000000000000060       0x10 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
  .gnu.attributes
@@ -1943,13 +1943,13 @@ LOAD stack
  .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
 
 .data%z56       0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+ .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o
 
 .data%z57       0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+ .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc3gDqbo.o
 
 .data%z58       0x0000000000000000        0x0
- .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .data          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
 
 .data%z59       0x0000000000000000        0x0
  .data          0x0000000000000000        0x0 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
@@ -2132,13 +2132,13 @@ LOAD stack
  .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
 
 .bss%z119       0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+ .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o
 
 .bss%z120       0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+ .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc3gDqbo.o
 
 .bss%z121       0x0000000000000000        0x0
- .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .bss           0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
 
 .bss%z122       0x0000000000000000        0x0
  .bss           0x0000000000000000        0x0 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
@@ -2161,7 +2161,7 @@ LOAD stack
                 0x00000000bfc00480       0x2c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\debug-exception-return.o
                 0x00000000bfc00480                __DbgExecReturn
 
-.text           0x000000009d000000     0x3244
+.text           0x000000009d000000     0x32a0
  .text          0x000000009d000000     0x2cc8 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
                 0x000000009d000000                USBDeviceInit
                 0x000000009d00032c                USBDeviceTasks
@@ -2171,115 +2171,115 @@ LOAD stack
                 0x000000009d00268c                USBStallEndpoint
                 0x000000009d002868                USBTransferOnePacket
                 0x000000009d002aac                USBCancelIO
- .text          0x000000009d002cc8      0x57c build/default/production/mouse.o
+ .text          0x000000009d002cc8      0x5d8 build/default/production/mouse.o
                 0x000000009d002cc8                main
-                0x000000009d002d4c                UserInit
-                0x000000009d002dc8                ProcessIO
-                0x000000009d002e30                Emulate_Mouse
-                0x000000009d002f5c                USBCBSuspend
-                0x000000009d002f80                USBCBWakeFromSuspend
-                0x000000009d002fa4                USBCB_SOF_Handler
-                0x000000009d002fc8                USBCBErrorHandler
-                0x000000009d002fec                USBCBCheckOtherReq
-                0x000000009d003020                USBCBStdSetDscHandler
-                0x000000009d003044                USBCBInitEP
-                0x000000009d003080                USBCBSendResume
-                0x000000009d0030ec                USER_USB_CALLBACK_EVENT_HANDLER
+                0x000000009d002d84                UserInit
+                0x000000009d002e00                ProcessIO
+                0x000000009d002e68                Emulate_Mouse
+                0x000000009d002fb8                USBCBSuspend
+                0x000000009d002fdc                USBCBWakeFromSuspend
+                0x000000009d003000                USBCB_SOF_Handler
+                0x000000009d003024                USBCBErrorHandler
+                0x000000009d003048                USBCBCheckOtherReq
+                0x000000009d00307c                USBCBStdSetDscHandler
+                0x000000009d0030a0                USBCBInitEP
+                0x000000009d0030dc                USBCBSendResume
+                0x000000009d003148                USER_USB_CALLBACK_EVENT_HANDLER
 
-.text           0x000000009d003244      0x24c
- .text          0x000000009d003244      0x24c PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
-                0x000000009d003244                USBCheckHIDRequest
-
-.rodata         0x000000009d003490       0xe4
- .rodata        0x000000009d003490       0xe4 build/default/production/usb_descriptors.o
-                0x000000009d003490                device_dsc
-                0x000000009d0034a4                configDescriptor1
-                0x000000009d0034c8                sd000
-                0x000000009d0034cc                sd001
-                0x000000009d003500                sd002
-                0x000000009d003530                hid_rpt01
-                0x000000009d003564                USB_CD_Ptr
-                0x000000009d003568                USB_SD_Ptr
+.text           0x000000009d0032a0      0x24c
+ .text          0x000000009d0032a0      0x24c PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_function_hid.o)
+                0x000000009d0032a0                USBCheckHIDRequest
 
 .text.general_exception
-                0x000000009d003574       0xdc
+                0x000000009d0034ec       0xdc
  .text.general_exception
-                0x000000009d003574       0xdc c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o)
-                0x000000009d003574                _general_exception_context
+                0x000000009d0034ec       0xdc c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(general-exception.o)
+                0x000000009d0034ec                _general_exception_context
 
-.text           0x000000009d003650       0x7c
- .text          0x000000009d003650       0x7c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_core.o)
-                0x000000009d003650                __dinit_copy_val_data
-                0x000000009d003650                __dinit_copy_emb
-                0x000000009d003650                __dinit_decompress
-                0x000000009d003650                __dinit_copy
-                0x000000009d003658                __pic32_data_init
+.rodata         0x000000009d0035c8       0xc0
+ .rodata        0x000000009d0035c8       0xc0 build/default/production/usb_descriptors.o
+                0x000000009d0035c8                device_dsc
+                0x000000009d0035dc                configDescriptor1
+                0x000000009d003600                hid_rpt01
+                0x000000009d003640                sd000
+                0x000000009d003644                sd001
+                0x000000009d00365c                sd002
+                0x000000009d003678                USB_CD_Ptr
+                0x000000009d00367c                USB_SD_Ptr
+
+.text           0x000000009d003688       0x7c
+ .text          0x000000009d003688       0x7c c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_core.o)
+                0x000000009d003688                __dinit_copy_val_data
+                0x000000009d003688                __dinit_copy_emb
+                0x000000009d003688                __dinit_decompress
+                0x000000009d003688                __dinit_copy
+                0x000000009d003690                __pic32_data_init
 
 .text.main_entry
-                0x000000009d0036cc       0x54
+                0x000000009d003704       0x54
  .text.main_entry
-                0x000000009d0036cc       0x54 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
-                0x000000009d003700                __crt0_exit
+                0x000000009d003704       0x54 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
+                0x000000009d003738                __crt0_exit
 
 .text._bootstrap_exception_handler
-                0x000000009d003720       0x48
+                0x000000009d003758       0x48
  .text._bootstrap_exception_handler
-                0x000000009d003720       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
-                0x000000009d003720                _bootstrap_exception_handler
+                0x000000009d003758       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
+                0x000000009d003758                _bootstrap_exception_handler
 
 .text._general_exception_handler
-                0x000000009d003768       0x48
+                0x000000009d0037a0       0x48
  .text._general_exception_handler
-                0x000000009d003768       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
-                0x000000009d003768                _general_exception_handler
+                0x000000009d0037a0       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-general-exception-handler.o)
+                0x000000009d0037a0                _general_exception_handler
 
 .vector_default
-                0x000000009d0037b0       0x48
+                0x000000009d0037e8       0x48
  .vector_default
-                0x000000009d0037b0       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
-                0x000000009d0037b0                _DefaultInterrupt
+                0x000000009d0037e8       0x48 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
+                0x000000009d0037e8                _DefaultInterrupt
 
-.text           0x000000009d0037f8       0x44
- .text          0x000000009d0037f8       0x44 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
-                0x000000009d0037f8                __pic32_software_reset
+.text           0x000000009d003830       0x44
+ .text          0x000000009d003830       0x44 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\pic32_software_reset.o
+                0x000000009d003830                __pic32_software_reset
 
-.rodata         0x000000009d00383c       0x30
- .rodata        0x000000009d00383c       0x30 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
+.rodata         0x000000009d003874       0x30
+ .rodata        0x000000009d003874       0x30 PIC32_USK_USB_Device_HID_Mouse_wo_MAL.a(usb_device.o)
 
-.dinit          0x000000009d00386c       0x30
- .dinit         0x000000009d00386c       0x30 data_init
+.dinit          0x000000009d0038a4       0x30
+ .dinit         0x000000009d0038a4       0x30 data_init
 
-.text.memset    0x000000009d00389c       0x28
- .text.memset   0x000000009d00389c       0x28 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
-                0x000000009d00389c                memset
+.text.memset    0x000000009d0038d4       0x28
+ .text.memset   0x000000009d0038d4       0x28 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
+                0x000000009d0038d4                memset
 
-.MIPS.abiflags  0x000000009d0038c8       0x18
+.MIPS.abiflags  0x000000009d003900       0x18
  .MIPS.abiflags
-                0x000000009d0038c8       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\debug-exception-return.o
+                0x000000009d003900       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\debug-exception-return.o
 
-.text           0x000000009d0038e0       0x30
- .text          0x000000009d0038e0       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
-                0x000000009d0038e0                _nmi_handler
- .text          0x000000009d0038f8       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_clear.o)
-                0x000000009d0038f8                __dinit_clear
-                0x000000009d0038f8                __dinit_clear_needed
+.text           0x000000009d003918       0x30
+ .text          0x000000009d003918       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
+                0x000000009d003918                _nmi_handler
+ .text          0x000000009d003930       0x18 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_clear.o)
+                0x000000009d003930                __dinit_clear
+                0x000000009d003930                __dinit_clear_needed
 
-.rodata         0x000000009d003910       0x1c
- .rodata        0x000000009d003910       0x14 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_core.o)
- .rodata        0x000000009d003924        0x8 build/default/production/mouse.o
-                0x000000009d003924                dir_table
+.rodata         0x000000009d003948       0x1c
+ .rodata        0x000000009d003948       0x14 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(pic32_data_init_core.o)
+ .rodata        0x000000009d00395c        0x8 build/default/production/mouse.o
+                0x000000009d00395c                dir_table
 
 .text._on_reset
-                0x000000009d00392c        0x8
+                0x000000009d003964        0x8
  .text._on_reset
-                0x000000009d00392c        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
-                0x000000009d00392c                _on_reset
+                0x000000009d003964        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
+                0x000000009d003964                _on_reset
 
 .text._on_bootstrap
-                0x000000009d003934        0x8
+                0x000000009d00396c        0x8
  .text._on_bootstrap
-                0x000000009d003934        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
-                0x000000009d003934                _on_bootstrap
+                0x000000009d00396c        0x8 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
+                0x000000009d00396c                _on_bootstrap
 
 .text%z127      0x0000000000000000        0x0
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libc-size-musl.a(memset.o)
@@ -2435,13 +2435,13 @@ LOAD stack
  .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib\libpic32.a(default-bootstrap-exception-handler.o)
 
 .text%z178      0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccIP2hUV.o
+ .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccos2N6Q.o
 
 .text%z179      0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc8MBdgW.o
+ .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cc3gDqbo.o
 
 .text%z180      0x0000000000000000        0x0
- .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\ccKmvJP6.o
+ .text          0x0000000000000000        0x0 C:\Users\18502\AppData\Local\Temp\cceuwcZ9.o
 
 .text%z181      0x0000000000000000        0x0
  .text          0x0000000000000000        0x0 build/default/production/usb_descriptors.o
