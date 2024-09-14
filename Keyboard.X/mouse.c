@@ -31,21 +31,15 @@
 
 
 /** VARIABLES ******************************************************/
-uint8_t old_emulate_switch;
-bool emulate_mode;
-uint8_t movement_length;
-uint8_t vector = 0;
-char buffer[3];
-USB_HANDLE lastTransmission;
-
-//The direction that the mouse will move in
-ROM signed char dir_table[]={-4,-4,-4, 0, 4, 4, 4, 0};
+#define SYS_FREQ 40000000
+bool pressFlag = true;
+uint8_t report[8];
+USB_HANDLE USBInHandle;
+int count = 0 ;
 
 /** PRIVATE PROTOTYPES *********************************************/
-void BlinkUSBStatus(void);
-bool Switch2IsPressed(void);
-bool SwitchIsPressed(void);
-void Emulate_Mouse(void);
+void delay_ms(unsigned int ms);
+void copyArray(uint8_t* arr1, uint8_t* arr2, int size);
 static void InitializeSystem(void);
 void ProcessIO(void);
 void UserInit(void);
@@ -56,25 +50,30 @@ void YourLowPriorityISRCode();
 int main(void)
 {
     InitializeSystem();
+    TRISBbits.TRISB0 = 1; // Set RB0 as input
 
-    #if defined(USB_INTERRUPT)
-        USBDeviceAttach();
-    #endif
 
-    while(1)
-    {
+    while (1) {
         #if defined(USB_POLLING)
-        USBDeviceTasks();
+        USBDeviceTasks();  // Maintain the USB stack if polling is used
         #endif
 
-        //ProcessIO();        
-        //code to send 'a' key
-        uint8_t report[8] = { 0x00, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00 }; // Press 'A'
-        HIDTxPacket(HID_EP, report, 8);
+        // Ensure USB is in the configured state before sending reports
+        if (USBGetDeviceState() == CONFIGURED_STATE) {
+            // Check if the previous transfer is complete and the button is pressed
+            if (!HIDTxHandleBusy(USBInHandle) && (PORTBbits.RB0 == 1)) {  // Button pressed (active-low)
+                // Prepare the report for button press (send "b")
+                uint8_t report[8] = { 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00 };
+                USBInHandle = HIDTxPacket(HID_EP, report, 8);  // Send the HID report
+            }
+            else if (!HIDTxHandleBusy(USBInHandle)) {
+                // Prepare the report for no button press (send nothing)
+                uint8_t report[8] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+                USBInHandle = HIDTxPacket(HID_EP, report, 8);  // Send the HID report
+            }
+        }
     }
-
 }
-
 
 static void InitializeSystem(void)
 {
@@ -95,171 +94,23 @@ static void InitializeSystem(void)
     USBDeviceInit(); 
 }
 
+void copyArray(uint8_t* arr1, uint8_t* arr2, int size){
+    for(int i=0;i<size;i++){
+        arr2[i]=arr1[i];
+    }
+}
+
 
 void UserInit(void)
 {
-    // Initialize all of the LED pins not needed
-    //mInitAllLEDs();
-    
-    // Initialize all of the push buttons
-    mInitAllSwitches();
-    old_emulate_switch = emulate_switch;
-
-    // Initialize all of the mouse data to 0,0,0 (no movement)
-    buffer[0]=buffer[1]=buffer[2]=0;
-
-    emulate_mode = false;
-    
-    lastTransmission = 0;
 
 }//end UserInit
 
 
 void ProcessIO(void)
 {   
-    //Blink the LEDs according to the USB device status
-    //BlinkUSBStatus();
-
-    //
-    // User Application USB tasks
-    //
-
-    // If not configured, do nothing
-    if((USBDeviceState < CONFIGURED_STATE)||(USBSuspendControl==1))
-    {
-        return;
-    }
-
-    //Call the function that emulates the mouse
-    Emulate_Mouse();
     
 }
-
-
-void Emulate_Mouse(void)
-{   
-    if(emulate_mode == true)
-    {
-        // Go 14 times in the same direction before changing direction
-        if(movement_length > 14)
-        {
-            buffer[0] = 0;
-            buffer[1] = dir_table[vector & 0x07];           // X-Vector
-            buffer[2] = dir_table[(vector+2) & 0x07];       // Y-Vector
-            //go to the next direction in the table
-            vector++;
-            //reset the counter for when to change again
-            movement_length = 0;
-        }//end if(movement_length > 14)
-    }
-    else
-    {
-        // Don't move the mouse
-        buffer[0] = buffer[1] = buffer[2] = 0;
-    }
-
-    if(HIDTxHandleBusy(lastTransmission) == 0)
-    {
-        //copy over the data to the HID buffer
-        hid_report_in[0] = buffer[0];
-        hid_report_in[1] = buffer[1];
-        hid_report_in[2] = buffer[2];
-     
-        //Send the 3 byte packet over USB to the host.
-        uint8_t report[8] = { 0x00, 0x00, 0x04, 0x00, 0x00, 0x00, 0x00, 0x00 }; // Press 'A'
-        HIDTxPacket(HID_EP, report, 8);
-
-        //increment the counter of when to change the data sent
-        movement_length++;
-    }
-}//end Emulate_Mouse
-
-
-/*Uncomment if you want to add switches
-bool SwitchIsPressed(void)
-{
-    if(emulate_switch != old_emulate_switch)
-    {
-        old_emulate_switch = emulate_switch;    // Save new value
-        if(emulate_switch == 0)                 // If pressed
-            return true;                        // Was pressed
-    }//end if
-    return false;                               // Was not pressed
-}//end SwitchIsPressed
-*/
-
-/* currently dont have LED KEEP INCASE YOU DO WANT LED
-void BlinkUSBStatus(void)
-{
-    static uint16_t led_count=0;
-    
-    if(led_count == 0)led_count = 10000U;
-    led_count--;
-
-    #define mLED_Both_Off()         {mLED_1_Off();mLED_2_Off();}
-    #define mLED_Both_On()          {mLED_1_On();mLED_2_On();}
-    #define mLED_Only_1_On()        {mLED_1_On();mLED_2_Off();}
-    #define mLED_Only_2_On()        {mLED_1_Off();mLED_2_On();}
-
-    if(USBSuspendControl == 1)
-    {
-        if(led_count==0)
-        {
-            mLED_1_Toggle();
-            if(mGetLED_1())
-            {
-                mLED_2_On();
-            }
-            else
-            {
-                mLED_2_Off();
-            }
-        }//end if
-    }
-    else
-    {
-        if(USBDeviceState == DETACHED_STATE)
-        {
-            mLED_Both_Off();
-        }
-        else if(USBDeviceState == ATTACHED_STATE)
-        {
-            mLED_Both_On();
-        }
-        else if(USBDeviceState == POWERED_STATE)
-        {
-            mLED_Only_1_On();
-        }
-        else if(USBDeviceState == DEFAULT_STATE)
-        {
-            mLED_Only_2_On();
-        }
-        else if(USBDeviceState == ADDRESS_STATE)
-        {
-            if(led_count == 0)
-            {
-                mLED_1_Toggle();
-                mLED_2_Off();
-            }//end if
-        }
-        else if(USBDeviceState == CONFIGURED_STATE)
-        {
-            if(led_count==0)
-            {      
-                mLED_1_Toggle();         
-                if(mGetLED_1())
-                {
-                    mLED_2_Off();
-                }
-                else
-                {
-                    mLED_2_On();
-                }
-            }//end if
-        }
-    }
-}//end BlinkUSBStatus
-*/
 
 void USBCBSuspend(void)
 {
@@ -346,5 +197,18 @@ bool USER_USB_CALLBACK_EVENT_HANDLER(USB_EVENT event, void *pdata, uint16_t size
             break;
     }      
     return true; 
+}
+
+void delay_ms(unsigned int ms) {
+    unsigned int tWait, tStart;
+
+    // Convert milliseconds to core timer ticks
+    tWait = (SYS_FREQ / 2000) * ms; // Core timer increments at half the system clock speed
+
+    // Read the starting core timer value
+    tStart = _CP0_GET_COUNT();
+
+    // Wait until the required number of ticks have passed
+    while ((_CP0_GET_COUNT() - tStart) < tWait);
 }
 
